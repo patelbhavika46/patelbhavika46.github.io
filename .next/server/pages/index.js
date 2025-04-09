@@ -1,199 +1,524 @@
-/*
- * ATTENTION: An "eval-source-map" devtool has been used.
- * This devtool is neither made for production nor for readable output files.
- * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
- * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
- * or disable the default devtool with "devtool: false".
- * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
- */
+"use strict";
 (() => {
 var exports = {};
-exports.id = "pages/index";
-exports.ids = ["pages/index"];
+exports.id = 405;
+exports.ids = [405];
 exports.modules = {
 
-/***/ "./node_modules/@swc/helpers/lib/_extends.js":
-/*!***************************************************!*\
-  !*** ./node_modules/@swc/helpers/lib/_extends.js ***!
-  \***************************************************/
-/***/ ((__unused_webpack_module, exports) => {
-
-"use strict";
-eval("\nObject.defineProperty(exports, \"__esModule\", ({\n    value: true\n}));\nObject.defineProperty(exports, \"default\", ({\n    enumerable: true,\n    get: function() {\n        return _extends;\n    }\n}));\nfunction extends_() {\n    extends_ = Object.assign || function(target) {\n        for(var i = 1; i < arguments.length; i++){\n            var source = arguments[i];\n            for(var key in source){\n                if (Object.prototype.hasOwnProperty.call(source, key)) {\n                    target[key] = source[key];\n                }\n            }\n        }\n        return target;\n    };\n    return extends_.apply(this, arguments);\n}\nfunction _extends() {\n    return extends_.apply(this, arguments);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9ub2RlX21vZHVsZXMvQHN3Yy9oZWxwZXJzL2xpYi9fZXh0ZW5kcy5qcy5qcyIsIm1hcHBpbmdzIjoiQUFBYTtBQUNiLDhDQUE2QztBQUM3QztBQUNBLENBQUMsRUFBQztBQUNGLDJDQUEwQztBQUMxQztBQUNBO0FBQ0E7QUFDQTtBQUNBLENBQUMsRUFBQztBQUNGO0FBQ0E7QUFDQSx1QkFBdUIsc0JBQXNCO0FBQzdDO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9kZXZlbG9wZXItcG9ydGZvbGlvLy4vbm9kZV9tb2R1bGVzL0Bzd2MvaGVscGVycy9saWIvX2V4dGVuZHMuanM/Mzk4YSJdLCJzb3VyY2VzQ29udGVudCI6WyJcInVzZSBzdHJpY3RcIjtcbk9iamVjdC5kZWZpbmVQcm9wZXJ0eShleHBvcnRzLCBcIl9fZXNNb2R1bGVcIiwge1xuICAgIHZhbHVlOiB0cnVlXG59KTtcbk9iamVjdC5kZWZpbmVQcm9wZXJ0eShleHBvcnRzLCBcImRlZmF1bHRcIiwge1xuICAgIGVudW1lcmFibGU6IHRydWUsXG4gICAgZ2V0OiBmdW5jdGlvbigpIHtcbiAgICAgICAgcmV0dXJuIF9leHRlbmRzO1xuICAgIH1cbn0pO1xuZnVuY3Rpb24gZXh0ZW5kc18oKSB7XG4gICAgZXh0ZW5kc18gPSBPYmplY3QuYXNzaWduIHx8IGZ1bmN0aW9uKHRhcmdldCkge1xuICAgICAgICBmb3IodmFyIGkgPSAxOyBpIDwgYXJndW1lbnRzLmxlbmd0aDsgaSsrKXtcbiAgICAgICAgICAgIHZhciBzb3VyY2UgPSBhcmd1bWVudHNbaV07XG4gICAgICAgICAgICBmb3IodmFyIGtleSBpbiBzb3VyY2Upe1xuICAgICAgICAgICAgICAgIGlmIChPYmplY3QucHJvdG90eXBlLmhhc093blByb3BlcnR5LmNhbGwoc291cmNlLCBrZXkpKSB7XG4gICAgICAgICAgICAgICAgICAgIHRhcmdldFtrZXldID0gc291cmNlW2tleV07XG4gICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgfVxuICAgICAgICB9XG4gICAgICAgIHJldHVybiB0YXJnZXQ7XG4gICAgfTtcbiAgICByZXR1cm4gZXh0ZW5kc18uYXBwbHkodGhpcywgYXJndW1lbnRzKTtcbn1cbmZ1bmN0aW9uIF9leHRlbmRzKCkge1xuICAgIHJldHVybiBleHRlbmRzXy5hcHBseSh0aGlzLCBhcmd1bWVudHMpO1xufVxuIl0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./node_modules/@swc/helpers/lib/_extends.js\n");
-
-/***/ }),
-
-/***/ "./node_modules/@swc/helpers/lib/_interop_require_default.js":
-/*!*******************************************************************!*\
-  !*** ./node_modules/@swc/helpers/lib/_interop_require_default.js ***!
-  \*******************************************************************/
-/***/ ((__unused_webpack_module, exports) => {
-
-"use strict";
-eval("\nObject.defineProperty(exports, \"__esModule\", ({\n    value: true\n}));\nObject.defineProperty(exports, \"default\", ({\n    enumerable: true,\n    get: function() {\n        return _interopRequireDefault;\n    }\n}));\nfunction _interopRequireDefault(obj) {\n    return obj && obj.__esModule ? obj : {\n        default: obj\n    };\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9ub2RlX21vZHVsZXMvQHN3Yy9oZWxwZXJzL2xpYi9faW50ZXJvcF9yZXF1aXJlX2RlZmF1bHQuanMuanMiLCJtYXBwaW5ncyI6IkFBQWE7QUFDYiw4Q0FBNkM7QUFDN0M7QUFDQSxDQUFDLEVBQUM7QUFDRiwyQ0FBMEM7QUFDMUM7QUFDQTtBQUNBO0FBQ0E7QUFDQSxDQUFDLEVBQUM7QUFDRjtBQUNBO0FBQ0E7QUFDQTtBQUNBIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vZGV2ZWxvcGVyLXBvcnRmb2xpby8uL25vZGVfbW9kdWxlcy9Ac3djL2hlbHBlcnMvbGliL19pbnRlcm9wX3JlcXVpcmVfZGVmYXVsdC5qcz85YjdjIl0sInNvdXJjZXNDb250ZW50IjpbIlwidXNlIHN0cmljdFwiO1xuT2JqZWN0LmRlZmluZVByb3BlcnR5KGV4cG9ydHMsIFwiX19lc01vZHVsZVwiLCB7XG4gICAgdmFsdWU6IHRydWVcbn0pO1xuT2JqZWN0LmRlZmluZVByb3BlcnR5KGV4cG9ydHMsIFwiZGVmYXVsdFwiLCB7XG4gICAgZW51bWVyYWJsZTogdHJ1ZSxcbiAgICBnZXQ6IGZ1bmN0aW9uKCkge1xuICAgICAgICByZXR1cm4gX2ludGVyb3BSZXF1aXJlRGVmYXVsdDtcbiAgICB9XG59KTtcbmZ1bmN0aW9uIF9pbnRlcm9wUmVxdWlyZURlZmF1bHQob2JqKSB7XG4gICAgcmV0dXJuIG9iaiAmJiBvYmouX19lc01vZHVsZSA/IG9iaiA6IHtcbiAgICAgICAgZGVmYXVsdDogb2JqXG4gICAgfTtcbn1cbiJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./node_modules/@swc/helpers/lib/_interop_require_default.js\n");
-
-/***/ }),
-
-/***/ "./components/SEO.tsx":
-/*!****************************!*\
-  !*** ./components/SEO.tsx ***!
-  \****************************/
+/***/ 174:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/head */ \"next/head\");\n/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _portfolio__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../portfolio */ \"./portfolio.ts\");\n\n\n\n\nfunction SEO() {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_head__WEBPACK_IMPORTED_MODULE_2___default()), {\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"title\", {\n                children: _portfolio__WEBPACK_IMPORTED_MODULE_3__.seoData.title\n            }, void 0, false, {\n                fileName: \"C:\\\\xampp\\\\htdocs\\\\patelbhavika46.github.io\\\\components\\\\SEO.tsx\",\n                lineNumber: 8,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                name: \"title\",\n                content: _portfolio__WEBPACK_IMPORTED_MODULE_3__.seoData.title\n            }, void 0, false, {\n                fileName: \"C:\\\\xampp\\\\htdocs\\\\patelbhavika46.github.io\\\\components\\\\SEO.tsx\",\n                lineNumber: 9,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                name: \"author\",\n                content: _portfolio__WEBPACK_IMPORTED_MODULE_3__.seoData.author\n            }, void 0, false, {\n                fileName: \"C:\\\\xampp\\\\htdocs\\\\patelbhavika46.github.io\\\\components\\\\SEO.tsx\",\n                lineNumber: 10,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                name: \"description\",\n                content: _portfolio__WEBPACK_IMPORTED_MODULE_3__.seoData.description\n            }, void 0, false, {\n                fileName: \"C:\\\\xampp\\\\htdocs\\\\patelbhavika46.github.io\\\\components\\\\SEO.tsx\",\n                lineNumber: 11,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                name: \"keywords\",\n                content: _portfolio__WEBPACK_IMPORTED_MODULE_3__.seoData.keywords.join(\", \")\n            }, void 0, false, {\n                fileName: \"C:\\\\xampp\\\\htdocs\\\\patelbhavika46.github.io\\\\components\\\\SEO.tsx\",\n                lineNumber: 12,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                rel: \"canonical\",\n                href: _portfolio__WEBPACK_IMPORTED_MODULE_3__.seoData.url\n            }, void 0, false, {\n                fileName: \"C:\\\\xampp\\\\htdocs\\\\patelbhavika46.github.io\\\\components\\\\SEO.tsx\",\n                lineNumber: 13,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                property: \"og:type\",\n                content: \"website\"\n            }, void 0, false, {\n                fileName: \"C:\\\\xampp\\\\htdocs\\\\patelbhavika46.github.io\\\\components\\\\SEO.tsx\",\n                lineNumber: 15,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                property: \"og:url\",\n                content: _portfolio__WEBPACK_IMPORTED_MODULE_3__.seoData.url\n            }, void 0, false, {\n                fileName: \"C:\\\\xampp\\\\htdocs\\\\patelbhavika46.github.io\\\\components\\\\SEO.tsx\",\n                lineNumber: 16,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                property: \"og:title\",\n                content: _portfolio__WEBPACK_IMPORTED_MODULE_3__.seoData.title\n            }, void 0, false, {\n                fileName: \"C:\\\\xampp\\\\htdocs\\\\patelbhavika46.github.io\\\\components\\\\SEO.tsx\",\n                lineNumber: 17,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                property: \"og:description\",\n                content: _portfolio__WEBPACK_IMPORTED_MODULE_3__.seoData.description\n            }, void 0, false, {\n                fileName: \"C:\\\\xampp\\\\htdocs\\\\patelbhavika46.github.io\\\\components\\\\SEO.tsx\",\n                lineNumber: 18,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                property: \"og:image\",\n                content: _portfolio__WEBPACK_IMPORTED_MODULE_3__.seoData.image\n            }, void 0, false, {\n                fileName: \"C:\\\\xampp\\\\htdocs\\\\patelbhavika46.github.io\\\\components\\\\SEO.tsx\",\n                lineNumber: 19,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                property: \"og:site_name\",\n                content: _portfolio__WEBPACK_IMPORTED_MODULE_3__.seoData.title\n            }, void 0, false, {\n                fileName: \"C:\\\\xampp\\\\htdocs\\\\patelbhavika46.github.io\\\\components\\\\SEO.tsx\",\n                lineNumber: 20,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                property: \"twitter:card\",\n                content: \"summary_large_image\"\n            }, void 0, false, {\n                fileName: \"C:\\\\xampp\\\\htdocs\\\\patelbhavika46.github.io\\\\components\\\\SEO.tsx\",\n                lineNumber: 22,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                property: \"twitter:url\",\n                content: _portfolio__WEBPACK_IMPORTED_MODULE_3__.seoData.url\n            }, void 0, false, {\n                fileName: \"C:\\\\xampp\\\\htdocs\\\\patelbhavika46.github.io\\\\components\\\\SEO.tsx\",\n                lineNumber: 23,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                property: \"twitter:title\",\n                content: _portfolio__WEBPACK_IMPORTED_MODULE_3__.seoData.title\n            }, void 0, false, {\n                fileName: \"C:\\\\xampp\\\\htdocs\\\\patelbhavika46.github.io\\\\components\\\\SEO.tsx\",\n                lineNumber: 24,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                property: \"twitter:description\",\n                content: _portfolio__WEBPACK_IMPORTED_MODULE_3__.seoData.description\n            }, void 0, false, {\n                fileName: \"C:\\\\xampp\\\\htdocs\\\\patelbhavika46.github.io\\\\components\\\\SEO.tsx\",\n                lineNumber: 25,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                property: \"twitter:image\",\n                content: _portfolio__WEBPACK_IMPORTED_MODULE_3__.seoData.image\n            }, void 0, false, {\n                fileName: \"C:\\\\xampp\\\\htdocs\\\\patelbhavika46.github.io\\\\components\\\\SEO.tsx\",\n                lineNumber: 26,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                name: \"robots\",\n                content: \"Index\"\n            }, void 0, false, {\n                fileName: \"C:\\\\xampp\\\\htdocs\\\\patelbhavika46.github.io\\\\components\\\\SEO.tsx\",\n                lineNumber: 27,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                rel: \"manifest\",\n                href: \"/manifest.json\"\n            }, void 0, false, {\n                fileName: \"C:\\\\xampp\\\\htdocs\\\\patelbhavika46.github.io\\\\components\\\\SEO.tsx\",\n                lineNumber: 28,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                rel: \"apple-touch-icon\",\n                sizes: \"120x120\",\n                href: \"./favicon.png\"\n            }, void 0, false, {\n                fileName: \"C:\\\\xampp\\\\htdocs\\\\patelbhavika46.github.io\\\\components\\\\SEO.tsx\",\n                lineNumber: 30,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                rel: \"icon\",\n                type: \"image/png\",\n                sizes: \"32x32\",\n                href: \"./favicon.png\"\n            }, void 0, false, {\n                fileName: \"C:\\\\xampp\\\\htdocs\\\\patelbhavika46.github.io\\\\components\\\\SEO.tsx\",\n                lineNumber: 31,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                rel: \"icon\",\n                type: \"image/png\",\n                sizes: \"16x16\",\n                href: \"./favicon.png\"\n            }, void 0, false, {\n                fileName: \"C:\\\\xampp\\\\htdocs\\\\patelbhavika46.github.io\\\\components\\\\SEO.tsx\",\n                lineNumber: 32,\n                columnNumber: 7\n            }, this)\n        ]\n    }, void 0, true, {\n        fileName: \"C:\\\\xampp\\\\htdocs\\\\patelbhavika46.github.io\\\\components\\\\SEO.tsx\",\n        lineNumber: 7,\n        columnNumber: 5\n    }, this);\n}\n// SEO.prototype = {\n//   data: PropTypes.shape({\n//     title: PropTypes.string.isRequired,\n//     author: PropTypes.string,\n//     description: PropTypes.string,\n//     image: PropTypes.string,\n//     url: PropTypes.string,\n//     keywords: PropTypes.arrayOf(PropTypes.string),\n//   }).isRequired,\n// };\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (SEO);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb21wb25lbnRzL1NFTy50c3guanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7O0FBQTBCO0FBQ0c7QUFDVTtBQUV2QyxTQUFTRyxNQUFNO0lBQ2IscUJBQ0UsOERBQUNGLGtEQUFJQTs7MEJBQ0gsOERBQUNHOzBCQUFPRixxREFBYTs7Ozs7OzBCQUNyQiw4REFBQ0c7Z0JBQUtDLE1BQUs7Z0JBQVFDLFNBQVNMLHFEQUFhOzs7Ozs7MEJBQ3pDLDhEQUFDRztnQkFBS0MsTUFBSztnQkFBU0MsU0FBU0wsc0RBQWM7Ozs7OzswQkFDM0MsOERBQUNHO2dCQUFLQyxNQUFLO2dCQUFjQyxTQUFTTCwyREFBbUI7Ozs7OzswQkFDckQsOERBQUNHO2dCQUFLQyxNQUFLO2dCQUFXQyxTQUFTTCw2REFBcUIsQ0FBQzs7Ozs7OzBCQUNyRCw4REFBQ1U7Z0JBQUtDLEtBQUk7Z0JBQVlDLE1BQU1aLG1EQUFXOzs7Ozs7MEJBRXZDLDhEQUFDRztnQkFBS1csVUFBUztnQkFBVVQsU0FBUTs7Ozs7OzBCQUNqQyw4REFBQ0Y7Z0JBQUtXLFVBQVM7Z0JBQVNULFNBQVNMLG1EQUFXOzs7Ozs7MEJBQzVDLDhEQUFDRztnQkFBS1csVUFBUztnQkFBV1QsU0FBU0wscURBQWE7Ozs7OzswQkFDaEQsOERBQUNHO2dCQUFLVyxVQUFTO2dCQUFpQlQsU0FBU0wsMkRBQW1COzs7Ozs7MEJBQzVELDhEQUFDRztnQkFBS1csVUFBUztnQkFBV1QsU0FBU0wscURBQWE7Ozs7OzswQkFDaEQsOERBQUNHO2dCQUFLVyxVQUFTO2dCQUFlVCxTQUFTTCxxREFBYTs7Ozs7OzBCQUVwRCw4REFBQ0c7Z0JBQUtXLFVBQVM7Z0JBQWVULFNBQVE7Ozs7OzswQkFDdEMsOERBQUNGO2dCQUFLVyxVQUFTO2dCQUFjVCxTQUFTTCxtREFBVzs7Ozs7OzBCQUNqRCw4REFBQ0c7Z0JBQUtXLFVBQVM7Z0JBQWdCVCxTQUFTTCxxREFBYTs7Ozs7OzBCQUNyRCw4REFBQ0c7Z0JBQUtXLFVBQVM7Z0JBQXNCVCxTQUFTTCwyREFBbUI7Ozs7OzswQkFDakUsOERBQUNHO2dCQUFLVyxVQUFTO2dCQUFnQlQsU0FBU0wscURBQWE7Ozs7OzswQkFDckQsOERBQUNHO2dCQUFLQyxNQUFLO2dCQUFTQyxTQUFROzs7Ozs7MEJBQzVCLDhEQUFDSztnQkFBS0MsS0FBSTtnQkFBV0MsTUFBSzs7Ozs7OzBCQUUxQiw4REFBQ0Y7Z0JBQUtDLEtBQUk7Z0JBQW1CSyxPQUFNO2dCQUFVSixNQUFLOzs7Ozs7MEJBQ2xELDhEQUFDRjtnQkFBS0MsS0FBSTtnQkFBT00sTUFBSztnQkFBWUQsT0FBTTtnQkFBUUosTUFBSzs7Ozs7OzBCQUNyRCw4REFBQ0Y7Z0JBQUtDLEtBQUk7Z0JBQU9NLE1BQUs7Z0JBQVlELE9BQU07Z0JBQVFKLE1BQUs7Ozs7Ozs7Ozs7OztBQUczRDtBQUVBLG9CQUFvQjtBQUNwQiw0QkFBNEI7QUFDNUIsMENBQTBDO0FBQzFDLGdDQUFnQztBQUNoQyxxQ0FBcUM7QUFDckMsK0JBQStCO0FBQy9CLDZCQUE2QjtBQUM3QixxREFBcUQ7QUFDckQsbUJBQW1CO0FBQ25CLEtBQUs7QUFFTCxpRUFBZVgsR0FBR0EsRUFBQyIsInNvdXJjZXMiOlsid2VicGFjazovL2RldmVsb3Blci1wb3J0Zm9saW8vLi9jb21wb25lbnRzL1NFTy50c3g/NjBmYiJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSBcInJlYWN0XCI7XHJcbmltcG9ydCBIZWFkIGZyb20gXCJuZXh0L2hlYWRcIjtcclxuaW1wb3J0IHsgc2VvRGF0YSB9IGZyb20gXCIuLi9wb3J0Zm9saW9cIjtcclxuXHJcbmZ1bmN0aW9uIFNFTygpIHtcclxuICByZXR1cm4gKFxyXG4gICAgPEhlYWQ+XHJcbiAgICAgIDx0aXRsZT57c2VvRGF0YS50aXRsZX08L3RpdGxlPlxyXG4gICAgICA8bWV0YSBuYW1lPVwidGl0bGVcIiBjb250ZW50PXtzZW9EYXRhLnRpdGxlfSAvPlxyXG4gICAgICA8bWV0YSBuYW1lPVwiYXV0aG9yXCIgY29udGVudD17c2VvRGF0YS5hdXRob3J9IC8+XHJcbiAgICAgIDxtZXRhIG5hbWU9XCJkZXNjcmlwdGlvblwiIGNvbnRlbnQ9e3Nlb0RhdGEuZGVzY3JpcHRpb259IC8+XHJcbiAgICAgIDxtZXRhIG5hbWU9XCJrZXl3b3Jkc1wiIGNvbnRlbnQ9e3Nlb0RhdGEua2V5d29yZHMuam9pbihcIiwgXCIpfSAvPlxyXG4gICAgICA8bGluayByZWw9XCJjYW5vbmljYWxcIiBocmVmPXtzZW9EYXRhLnVybH0gLz5cclxuICAgICAgey8qIE9wZW4gR3JhcGggLyBGYWNlYm9vayAqL31cclxuICAgICAgPG1ldGEgcHJvcGVydHk9XCJvZzp0eXBlXCIgY29udGVudD1cIndlYnNpdGVcIiAvPlxyXG4gICAgICA8bWV0YSBwcm9wZXJ0eT1cIm9nOnVybFwiIGNvbnRlbnQ9e3Nlb0RhdGEudXJsfSAvPlxyXG4gICAgICA8bWV0YSBwcm9wZXJ0eT1cIm9nOnRpdGxlXCIgY29udGVudD17c2VvRGF0YS50aXRsZX0gLz5cclxuICAgICAgPG1ldGEgcHJvcGVydHk9XCJvZzpkZXNjcmlwdGlvblwiIGNvbnRlbnQ9e3Nlb0RhdGEuZGVzY3JpcHRpb259IC8+XHJcbiAgICAgIDxtZXRhIHByb3BlcnR5PVwib2c6aW1hZ2VcIiBjb250ZW50PXtzZW9EYXRhLmltYWdlfSAvPlxyXG4gICAgICA8bWV0YSBwcm9wZXJ0eT1cIm9nOnNpdGVfbmFtZVwiIGNvbnRlbnQ9e3Nlb0RhdGEudGl0bGV9IC8+XHJcbiAgICAgIHsvKiBUd2l0dGVyICovfVxyXG4gICAgICA8bWV0YSBwcm9wZXJ0eT1cInR3aXR0ZXI6Y2FyZFwiIGNvbnRlbnQ9XCJzdW1tYXJ5X2xhcmdlX2ltYWdlXCIgLz5cclxuICAgICAgPG1ldGEgcHJvcGVydHk9XCJ0d2l0dGVyOnVybFwiIGNvbnRlbnQ9e3Nlb0RhdGEudXJsfSAvPlxyXG4gICAgICA8bWV0YSBwcm9wZXJ0eT1cInR3aXR0ZXI6dGl0bGVcIiBjb250ZW50PXtzZW9EYXRhLnRpdGxlfSAvPlxyXG4gICAgICA8bWV0YSBwcm9wZXJ0eT1cInR3aXR0ZXI6ZGVzY3JpcHRpb25cIiBjb250ZW50PXtzZW9EYXRhLmRlc2NyaXB0aW9ufSAvPlxyXG4gICAgICA8bWV0YSBwcm9wZXJ0eT1cInR3aXR0ZXI6aW1hZ2VcIiBjb250ZW50PXtzZW9EYXRhLmltYWdlfSAvPlxyXG4gICAgICA8bWV0YSBuYW1lPVwicm9ib3RzXCIgY29udGVudD1cIkluZGV4XCIgLz5cclxuICAgICAgPGxpbmsgcmVsPVwibWFuaWZlc3RcIiBocmVmPVwiL21hbmlmZXN0Lmpzb25cIiAvPlxyXG4gICAgICB7LyogRmF2aWNvbiAqL31cclxuICAgICAgPGxpbmsgcmVsPVwiYXBwbGUtdG91Y2gtaWNvblwiIHNpemVzPVwiMTIweDEyMFwiIGhyZWY9XCIuL2Zhdmljb24ucG5nXCIgLz5cclxuICAgICAgPGxpbmsgcmVsPVwiaWNvblwiIHR5cGU9XCJpbWFnZS9wbmdcIiBzaXplcz1cIjMyeDMyXCIgaHJlZj1cIi4vZmF2aWNvbi5wbmdcIiAvPlxyXG4gICAgICA8bGluayByZWw9XCJpY29uXCIgdHlwZT1cImltYWdlL3BuZ1wiIHNpemVzPVwiMTZ4MTZcIiBocmVmPVwiLi9mYXZpY29uLnBuZ1wiIC8+XHJcbiAgICA8L0hlYWQ+XHJcbiAgKTtcclxufVxyXG5cclxuLy8gU0VPLnByb3RvdHlwZSA9IHtcclxuLy8gICBkYXRhOiBQcm9wVHlwZXMuc2hhcGUoe1xyXG4vLyAgICAgdGl0bGU6IFByb3BUeXBlcy5zdHJpbmcuaXNSZXF1aXJlZCxcclxuLy8gICAgIGF1dGhvcjogUHJvcFR5cGVzLnN0cmluZyxcclxuLy8gICAgIGRlc2NyaXB0aW9uOiBQcm9wVHlwZXMuc3RyaW5nLFxyXG4vLyAgICAgaW1hZ2U6IFByb3BUeXBlcy5zdHJpbmcsXHJcbi8vICAgICB1cmw6IFByb3BUeXBlcy5zdHJpbmcsXHJcbi8vICAgICBrZXl3b3JkczogUHJvcFR5cGVzLmFycmF5T2YoUHJvcFR5cGVzLnN0cmluZyksXHJcbi8vICAgfSkuaXNSZXF1aXJlZCxcclxuLy8gfTtcclxuXHJcbmV4cG9ydCBkZWZhdWx0IFNFTztcclxuIl0sIm5hbWVzIjpbIlJlYWN0IiwiSGVhZCIsInNlb0RhdGEiLCJTRU8iLCJ0aXRsZSIsIm1ldGEiLCJuYW1lIiwiY29udGVudCIsImF1dGhvciIsImRlc2NyaXB0aW9uIiwia2V5d29yZHMiLCJqb2luIiwibGluayIsInJlbCIsImhyZWYiLCJ1cmwiLCJwcm9wZXJ0eSIsImltYWdlIiwic2l6ZXMiLCJ0eXBlIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./components/SEO.tsx\n");
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  "default": () => (/* binding */ Home),
+  "getStaticProps": () => (/* binding */ getStaticProps)
+});
+
+// EXTERNAL MODULE: external "react/jsx-runtime"
+var jsx_runtime_ = __webpack_require__(997);
+// EXTERNAL MODULE: ./node_modules/next/dynamic.js
+var dynamic = __webpack_require__(152);
+var dynamic_default = /*#__PURE__*/__webpack_require__.n(dynamic);
+// EXTERNAL MODULE: ./portfolio.ts + 1 modules
+var portfolio = __webpack_require__(805);
+// EXTERNAL MODULE: external "react"
+var external_react_ = __webpack_require__(689);
+;// CONCATENATED MODULE: external "next/head"
+const head_namespaceObject = require("next/head");
+var head_default = /*#__PURE__*/__webpack_require__.n(head_namespaceObject);
+;// CONCATENATED MODULE: ./components/SEO.tsx
+
+
+
+
+function SEO() {
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)((head_default()), {
+        children: [
+            /*#__PURE__*/ jsx_runtime_.jsx("title", {
+                children: portfolio/* seoData.title */.hD.title
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("meta", {
+                name: "title",
+                content: portfolio/* seoData.title */.hD.title
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("meta", {
+                name: "author",
+                content: portfolio/* seoData.author */.hD.author
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("meta", {
+                name: "description",
+                content: portfolio/* seoData.description */.hD.description
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("meta", {
+                name: "keywords",
+                content: portfolio/* seoData.keywords.join */.hD.keywords.join(", ")
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("link", {
+                rel: "canonical",
+                href: portfolio/* seoData.url */.hD.url
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("meta", {
+                property: "og:type",
+                content: "website"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("meta", {
+                property: "og:url",
+                content: portfolio/* seoData.url */.hD.url
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("meta", {
+                property: "og:title",
+                content: portfolio/* seoData.title */.hD.title
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("meta", {
+                property: "og:description",
+                content: portfolio/* seoData.description */.hD.description
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("meta", {
+                property: "og:image",
+                content: portfolio/* seoData.image */.hD.image
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("meta", {
+                property: "og:site_name",
+                content: portfolio/* seoData.title */.hD.title
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("meta", {
+                property: "twitter:card",
+                content: "summary_large_image"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("meta", {
+                property: "twitter:url",
+                content: portfolio/* seoData.url */.hD.url
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("meta", {
+                property: "twitter:title",
+                content: portfolio/* seoData.title */.hD.title
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("meta", {
+                property: "twitter:description",
+                content: portfolio/* seoData.description */.hD.description
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("meta", {
+                property: "twitter:image",
+                content: portfolio/* seoData.image */.hD.image
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("meta", {
+                name: "robots",
+                content: "Index"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("link", {
+                rel: "manifest",
+                href: "/manifest.json"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("link", {
+                rel: "apple-touch-icon",
+                sizes: "120x120",
+                href: "./favicon.png"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("link", {
+                rel: "icon",
+                type: "image/png",
+                sizes: "32x32",
+                href: "./favicon.png"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("link", {
+                rel: "icon",
+                type: "image/png",
+                sizes: "16x16",
+                href: "./favicon.png"
+            })
+        ]
+    });
+}
+// SEO.prototype = {
+//   data: PropTypes.shape({
+//     title: PropTypes.string.isRequired,
+//     author: PropTypes.string,
+//     description: PropTypes.string,
+//     image: PropTypes.string,
+//     url: PropTypes.string,
+//     keywords: PropTypes.arrayOf(PropTypes.string),
+//   }).isRequired,
+// };
+/* harmony default export */ const components_SEO = (SEO);
+
+;// CONCATENATED MODULE: ./pages/index.tsx
+
+
+const Navigation = dynamic_default()(()=>__webpack_require__.e(/* import() */ 581).then(__webpack_require__.bind(__webpack_require__, 581)), {
+    loadableGenerated: {
+        modules: [
+            "index.tsx -> " + "../components/Navigation"
+        ]
+    }
+});
+const Greetings = dynamic_default()(()=>Promise.all(/* import() */[__webpack_require__.e(819), __webpack_require__.e(471)]).then(__webpack_require__.bind(__webpack_require__, 471)), {
+    loadableGenerated: {
+        modules: [
+            "index.tsx -> " + "../containers/Greetings"
+        ]
+    }
+});
+const Skills = dynamic_default()(()=>__webpack_require__.e(/* import() */ 7).then(__webpack_require__.bind(__webpack_require__, 7)), {
+    loadableGenerated: {
+        modules: [
+            "index.tsx -> " + "../containers/Skills"
+        ]
+    }
+});
+const Proficiency = dynamic_default()(()=>__webpack_require__.e(/* import() */ 440).then(__webpack_require__.bind(__webpack_require__, 440)), {
+    loadableGenerated: {
+        modules: [
+            "index.tsx -> " + "../containers/Proficiency"
+        ]
+    }
+});
+const Education = dynamic_default()(()=>__webpack_require__.e(/* import() */ 380).then(__webpack_require__.bind(__webpack_require__, 380)), {
+    loadableGenerated: {
+        modules: [
+            "index.tsx -> " + "../containers/Education"
+        ]
+    }
+});
+const Experience = dynamic_default()(()=>__webpack_require__.e(/* import() */ 949).then(__webpack_require__.bind(__webpack_require__, 949)), {
+    loadableGenerated: {
+        modules: [
+            "index.tsx -> " + "../containers/Experience"
+        ]
+    }
+});
+const Projects = dynamic_default()(()=>__webpack_require__.e(/* import() */ 668).then(__webpack_require__.bind(__webpack_require__, 668)), {
+    loadableGenerated: {
+        modules: [
+            "index.tsx -> " + "../containers/Projects"
+        ]
+    }
+});
+const Feedbacks = dynamic_default()(()=>__webpack_require__.e(/* import() */ 85).then(__webpack_require__.bind(__webpack_require__, 85)), {
+    loadableGenerated: {
+        modules: [
+            "index.tsx -> " + "../containers/Feedbacks"
+        ]
+    }
+});
+const GithubProfileCard = dynamic_default()(()=>Promise.all(/* import() */[__webpack_require__.e(819), __webpack_require__.e(77)]).then(__webpack_require__.bind(__webpack_require__, 77)), {
+    loadableGenerated: {
+        modules: [
+            "index.tsx -> " + "../components/GithubProfileCard"
+        ]
+    }
+});
+
+
+function Home({ githubProfileData  }) {
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+        children: [
+            /*#__PURE__*/ jsx_runtime_.jsx(components_SEO, {}),
+            /*#__PURE__*/ jsx_runtime_.jsx(Navigation, {}),
+            /*#__PURE__*/ jsx_runtime_.jsx(Greetings, {}),
+            /*#__PURE__*/ jsx_runtime_.jsx(Skills, {}),
+            /*#__PURE__*/ jsx_runtime_.jsx(Proficiency, {}),
+            /*#__PURE__*/ jsx_runtime_.jsx(Education, {}),
+            /*#__PURE__*/ jsx_runtime_.jsx(Experience, {}),
+            /*#__PURE__*/ jsx_runtime_.jsx(Feedbacks, {}),
+            /*#__PURE__*/ jsx_runtime_.jsx(Projects, {}),
+            /*#__PURE__*/ jsx_runtime_.jsx(GithubProfileCard, {
+                ...githubProfileData
+            })
+        ]
+    });
+}
+// Home.prototype = {
+//   githubProfileData: PropTypes.object.isRequired,
+// };
+async function getStaticProps() {
+    const githubProfileData = await fetch(`https://api.github.com/users/${portfolio/* openSource.githubUserName */.qL.githubUserName}`).then((res)=>res.json());
+    return {
+        props: {
+            githubProfileData
+        }
+    };
+}
+
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/shared/lib/dynamic.js":
-/*!******************************************************!*\
-  !*** ./node_modules/next/dist/shared/lib/dynamic.js ***!
-  \******************************************************/
-/***/ ((module, exports, __webpack_require__) => {
-
-"use strict";
-eval("\nObject.defineProperty(exports, \"__esModule\", ({\n    value: true\n}));\nexports[\"default\"] = dynamic;\nexports.noSSR = noSSR;\nvar _extends = (__webpack_require__(/*! @swc/helpers/lib/_extends.js */ \"./node_modules/@swc/helpers/lib/_extends.js\")[\"default\"]);\nvar _interop_require_default = (__webpack_require__(/*! @swc/helpers/lib/_interop_require_default.js */ \"./node_modules/@swc/helpers/lib/_interop_require_default.js\")[\"default\"]);\nvar _react = _interop_require_default(__webpack_require__(/*! react */ \"react\"));\nvar _loadable = _interop_require_default(__webpack_require__(/*! ./loadable */ \"./loadable\"));\nfunction dynamic(dynamicOptions, options) {\n    let loadableFn = _loadable.default;\n    let loadableOptions = {\n        // A loading component is not required, so we default it\n        loading: ({ error , isLoading , pastDelay  })=>{\n            if (!pastDelay) return null;\n            if (true) {\n                if (isLoading) {\n                    return null;\n                }\n                if (error) {\n                    return /*#__PURE__*/ _react.default.createElement(\"p\", null, error.message, /*#__PURE__*/ _react.default.createElement(\"br\", null), error.stack);\n                }\n            }\n            return null;\n        }\n    };\n    // Support for direct import(), eg: dynamic(import('../hello-world'))\n    // Note that this is only kept for the edge case where someone is passing in a promise as first argument\n    // The react-loadable babel plugin will turn dynamic(import('../hello-world')) into dynamic(() => import('../hello-world'))\n    // To make sure we don't execute the import without rendering first\n    if (dynamicOptions instanceof Promise) {\n        loadableOptions.loader = ()=>dynamicOptions;\n    // Support for having import as a function, eg: dynamic(() => import('../hello-world'))\n    } else if (typeof dynamicOptions === \"function\") {\n        loadableOptions.loader = dynamicOptions;\n    // Support for having first argument being options, eg: dynamic({loader: import('../hello-world')})\n    } else if (typeof dynamicOptions === \"object\") {\n        loadableOptions = _extends({}, loadableOptions, dynamicOptions);\n    }\n    // Support for passing options, eg: dynamic(import('../hello-world'), {loading: () => <p>Loading something</p>})\n    loadableOptions = _extends({}, loadableOptions, options);\n    const loaderFn = loadableOptions.loader;\n    const loader = ()=>loaderFn != null ? loaderFn().then(convertModule) : Promise.resolve(convertModule(()=>null));\n    // coming from build/babel/plugins/react-loadable-plugin.js\n    if (loadableOptions.loadableGenerated) {\n        loadableOptions = _extends({}, loadableOptions, loadableOptions.loadableGenerated);\n        delete loadableOptions.loadableGenerated;\n    }\n    // support for disabling server side rendering, eg: dynamic(() => import('../hello-world'), {ssr: false}).\n    if (typeof loadableOptions.ssr === \"boolean\" && !loadableOptions.ssr) {\n        delete loadableOptions.webpack;\n        delete loadableOptions.modules;\n        return noSSR(loadableFn, loadableOptions);\n    }\n    return loadableFn(_extends({}, loadableOptions, {\n        loader: loader\n    }));\n}\nconst isServerSide = \"undefined\" === \"undefined\";\n// Normalize loader to return the module as form { default: Component } for `React.lazy`.\n// Also for backward compatible since next/dynamic allows to resolve a component directly with loader\n// Client component reference proxy need to be converted to a module.\nfunction convertModule(mod) {\n    var ref;\n    return {\n        default: ((ref = mod) == null ? void 0 : ref.default) || mod\n    };\n}\nfunction noSSR(LoadableInitializer, loadableOptions) {\n    // Removing webpack and modules means react-loadable won't try preloading\n    delete loadableOptions.webpack;\n    delete loadableOptions.modules;\n    // This check is necessary to prevent react-loadable from initializing on the server\n    if (!isServerSide) {\n        return LoadableInitializer(loadableOptions);\n    }\n    const Loading = loadableOptions.loading;\n    // This will only be rendered on the server side\n    return ()=>/*#__PURE__*/ _react.default.createElement(Loading, {\n            error: null,\n            isLoading: true,\n            pastDelay: false,\n            timedOut: false\n        });\n}\nif ((typeof exports.default === \"function\" || typeof exports.default === \"object\" && exports.default !== null) && typeof exports.default.__esModule === \"undefined\") {\n    Object.defineProperty(exports.default, \"__esModule\", {\n        value: true\n    });\n    Object.assign(exports.default, exports);\n    module.exports = exports.default;\n} //# sourceMappingURL=dynamic.js.map\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9ub2RlX21vZHVsZXMvbmV4dC9kaXN0L3NoYXJlZC9saWIvZHluYW1pYy5qcy5qcyIsIm1hcHBpbmdzIjoiQUFBYTtBQUNiQSw4Q0FBNkM7SUFDekNHLE9BQU8sSUFBSTtBQUNmLENBQUMsRUFBQztBQUNGRCxrQkFBZSxHQUFHRztBQUNsQkgsYUFBYSxHQUFHSTtBQUNoQixJQUFJQyxXQUFXQyxtSEFBK0M7QUFDOUQsSUFBSUMsMkJBQTJCRCxtSkFBK0Q7QUFDOUYsSUFBSUUsU0FBU0QseUJBQXlCRCxtQkFBT0EsQ0FBQyxvQkFBTztBQUNyRCxJQUFJRyxZQUFZRix5QkFBeUJELG1CQUFPQSxDQUFDLDhCQUFZO0FBQzdELFNBQVNILFFBQVFPLGNBQWMsRUFBRUMsT0FBTyxFQUFFO0lBQ3RDLElBQUlDLGFBQWFILFVBQVVQLE9BQU87SUFDbEMsSUFBSVcsa0JBQWtCO1FBQ2xCLHdEQUF3RDtRQUN4REMsU0FBUyxDQUFDLEVBQUVDLE1BQUssRUFBR0MsVUFBUyxFQUFHQyxVQUFTLEVBQUcsR0FBRztZQUMzQyxJQUFJLENBQUNBLFdBQVcsT0FBTyxJQUFJO1lBQzNCLElBQUlDLElBQXlCLEVBQWM7Z0JBQ3ZDLElBQUlGLFdBQVc7b0JBQ1gsT0FBTyxJQUFJO2dCQUNmLENBQUM7Z0JBQ0QsSUFBSUQsT0FBTztvQkFDUCxPQUFPLFdBQVcsR0FBR1AsT0FBT04sT0FBTyxDQUFDaUIsYUFBYSxDQUFDLEtBQUssSUFBSSxFQUFFSixNQUFNSyxPQUFPLEVBQUUsV0FBVyxHQUFHWixPQUFPTixPQUFPLENBQUNpQixhQUFhLENBQUMsTUFBTSxJQUFJLEdBQUdKLE1BQU1NLEtBQUs7Z0JBQ25KLENBQUM7WUFDTCxDQUFDO1lBQ0QsT0FBTyxJQUFJO1FBQ2Y7SUFDSjtJQUNBLHFFQUFxRTtJQUNyRSx3R0FBd0c7SUFDeEcsMkhBQTJIO0lBQzNILG1FQUFtRTtJQUNuRSxJQUFJWCwwQkFBMEJZLFNBQVM7UUFDbkNULGdCQUFnQlUsTUFBTSxHQUFHLElBQUliO0lBQ2pDLHVGQUF1RjtJQUN2RixPQUFPLElBQUksT0FBT0EsbUJBQW1CLFlBQVk7UUFDN0NHLGdCQUFnQlUsTUFBTSxHQUFHYjtJQUM3QixtR0FBbUc7SUFDbkcsT0FBTyxJQUFJLE9BQU9BLG1CQUFtQixVQUFVO1FBQzNDRyxrQkFBa0JSLFNBQVMsQ0FBQyxHQUFHUSxpQkFBaUJIO0lBQ3BELENBQUM7SUFDRCxnSEFBZ0g7SUFDaEhHLGtCQUFrQlIsU0FBUyxDQUFDLEdBQUdRLGlCQUFpQkY7SUFDaEQsTUFBTWEsV0FBV1gsZ0JBQWdCVSxNQUFNO0lBQ3ZDLE1BQU1BLFNBQVMsSUFBSUMsWUFBWSxJQUFJLEdBQUdBLFdBQVdDLElBQUksQ0FBQ0MsaUJBQWlCSixRQUFRSyxPQUFPLENBQUNELGNBQWMsSUFBSSxJQUFJLEVBQUU7SUFDL0csMkRBQTJEO0lBQzNELElBQUliLGdCQUFnQmUsaUJBQWlCLEVBQUU7UUFDbkNmLGtCQUFrQlIsU0FBUyxDQUFDLEdBQUdRLGlCQUFpQkEsZ0JBQWdCZSxpQkFBaUI7UUFDakYsT0FBT2YsZ0JBQWdCZSxpQkFBaUI7SUFDNUMsQ0FBQztJQUNELDBHQUEwRztJQUMxRyxJQUFJLE9BQU9mLGdCQUFnQmdCLEdBQUcsS0FBSyxhQUFhLENBQUNoQixnQkFBZ0JnQixHQUFHLEVBQUU7UUFDbEUsT0FBT2hCLGdCQUFnQmlCLE9BQU87UUFDOUIsT0FBT2pCLGdCQUFnQmtCLE9BQU87UUFDOUIsT0FBTzNCLE1BQU1RLFlBQVlDO0lBQzdCLENBQUM7SUFDRCxPQUFPRCxXQUFXUCxTQUFTLENBQUMsR0FBR1EsaUJBQWlCO1FBQzVDVSxRQUFRQTtJQUNaO0FBQ0o7QUFDQSxNQUFNUyxlQUFlLGdCQUFrQjtBQUN2Qyx5RkFBeUY7QUFDekYscUdBQXFHO0FBQ3JHLHFFQUFxRTtBQUNyRSxTQUFTTixjQUFjTyxHQUFHLEVBQUU7SUFDeEIsSUFBSUM7SUFDSixPQUFPO1FBQ0hoQyxTQUFTLENBQUMsQ0FBQ2dDLE1BQU1ELEdBQUUsS0FBTSxJQUFJLEdBQUcsS0FBSyxJQUFJQyxJQUFJaEMsT0FBTyxLQUFLK0I7SUFDN0Q7QUFDSjtBQUNBLFNBQVM3QixNQUFNK0IsbUJBQW1CLEVBQUV0QixlQUFlLEVBQUU7SUFDakQseUVBQXlFO0lBQ3pFLE9BQU9BLGdCQUFnQmlCLE9BQU87SUFDOUIsT0FBT2pCLGdCQUFnQmtCLE9BQU87SUFDOUIsb0ZBQW9GO0lBQ3BGLElBQUksQ0FBQ0MsY0FBYztRQUNmLE9BQU9HLG9CQUFvQnRCO0lBQy9CLENBQUM7SUFDRCxNQUFNdUIsVUFBVXZCLGdCQUFnQkMsT0FBTztJQUN2QyxnREFBZ0Q7SUFDaEQsT0FBTyxJQUFJLFdBQVcsR0FBR04sT0FBT04sT0FBTyxDQUFDaUIsYUFBYSxDQUFDaUIsU0FBUztZQUN2RHJCLE9BQU8sSUFBSTtZQUNYQyxXQUFXLElBQUk7WUFDZkMsV0FBVyxLQUFLO1lBQ2hCb0IsVUFBVSxLQUFLO1FBQ25CO0FBQ1I7QUFFQSxJQUFJLENBQUMsT0FBT3JDLFFBQVFFLE9BQU8sS0FBSyxjQUFlLE9BQU9GLFFBQVFFLE9BQU8sS0FBSyxZQUFZRixRQUFRRSxPQUFPLEtBQUssSUFBSSxLQUFNLE9BQU9GLFFBQVFFLE9BQU8sQ0FBQ29DLFVBQVUsS0FBSyxhQUFhO0lBQ3JLeEMsT0FBT0MsY0FBYyxDQUFDQyxRQUFRRSxPQUFPLEVBQUUsY0FBYztRQUFFRCxPQUFPLElBQUk7SUFBQztJQUNuRUgsT0FBT3lDLE1BQU0sQ0FBQ3ZDLFFBQVFFLE9BQU8sRUFBRUY7SUFDL0J3QyxPQUFPeEMsT0FBTyxHQUFHQSxRQUFRRSxPQUFPO0FBQ2xDLENBQUMsQ0FFRCxtQ0FBbUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9kZXZlbG9wZXItcG9ydGZvbGlvLy4vbm9kZV9tb2R1bGVzL25leHQvZGlzdC9zaGFyZWQvbGliL2R5bmFtaWMuanM/ZTI1ZCJdLCJzb3VyY2VzQ29udGVudCI6WyJcInVzZSBzdHJpY3RcIjtcbk9iamVjdC5kZWZpbmVQcm9wZXJ0eShleHBvcnRzLCBcIl9fZXNNb2R1bGVcIiwge1xuICAgIHZhbHVlOiB0cnVlXG59KTtcbmV4cG9ydHMuZGVmYXVsdCA9IGR5bmFtaWM7XG5leHBvcnRzLm5vU1NSID0gbm9TU1I7XG52YXIgX2V4dGVuZHMgPSByZXF1aXJlKFwiQHN3Yy9oZWxwZXJzL2xpYi9fZXh0ZW5kcy5qc1wiKS5kZWZhdWx0O1xudmFyIF9pbnRlcm9wX3JlcXVpcmVfZGVmYXVsdCA9IHJlcXVpcmUoXCJAc3djL2hlbHBlcnMvbGliL19pbnRlcm9wX3JlcXVpcmVfZGVmYXVsdC5qc1wiKS5kZWZhdWx0O1xudmFyIF9yZWFjdCA9IF9pbnRlcm9wX3JlcXVpcmVfZGVmYXVsdChyZXF1aXJlKFwicmVhY3RcIikpO1xudmFyIF9sb2FkYWJsZSA9IF9pbnRlcm9wX3JlcXVpcmVfZGVmYXVsdChyZXF1aXJlKFwiLi9sb2FkYWJsZVwiKSk7XG5mdW5jdGlvbiBkeW5hbWljKGR5bmFtaWNPcHRpb25zLCBvcHRpb25zKSB7XG4gICAgbGV0IGxvYWRhYmxlRm4gPSBfbG9hZGFibGUuZGVmYXVsdDtcbiAgICBsZXQgbG9hZGFibGVPcHRpb25zID0ge1xuICAgICAgICAvLyBBIGxvYWRpbmcgY29tcG9uZW50IGlzIG5vdCByZXF1aXJlZCwgc28gd2UgZGVmYXVsdCBpdFxuICAgICAgICBsb2FkaW5nOiAoeyBlcnJvciAsIGlzTG9hZGluZyAsIHBhc3REZWxheSAgfSk9PntcbiAgICAgICAgICAgIGlmICghcGFzdERlbGF5KSByZXR1cm4gbnVsbDtcbiAgICAgICAgICAgIGlmIChwcm9jZXNzLmVudi5OT0RFX0VOViAhPT0gJ3Byb2R1Y3Rpb24nKSB7XG4gICAgICAgICAgICAgICAgaWYgKGlzTG9hZGluZykge1xuICAgICAgICAgICAgICAgICAgICByZXR1cm4gbnVsbDtcbiAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgaWYgKGVycm9yKSB7XG4gICAgICAgICAgICAgICAgICAgIHJldHVybiAvKiNfX1BVUkVfXyovIF9yZWFjdC5kZWZhdWx0LmNyZWF0ZUVsZW1lbnQoXCJwXCIsIG51bGwsIGVycm9yLm1lc3NhZ2UsIC8qI19fUFVSRV9fKi8gX3JlYWN0LmRlZmF1bHQuY3JlYXRlRWxlbWVudChcImJyXCIsIG51bGwpLCBlcnJvci5zdGFjayk7XG4gICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgfVxuICAgICAgICAgICAgcmV0dXJuIG51bGw7XG4gICAgICAgIH1cbiAgICB9O1xuICAgIC8vIFN1cHBvcnQgZm9yIGRpcmVjdCBpbXBvcnQoKSwgZWc6IGR5bmFtaWMoaW1wb3J0KCcuLi9oZWxsby13b3JsZCcpKVxuICAgIC8vIE5vdGUgdGhhdCB0aGlzIGlzIG9ubHkga2VwdCBmb3IgdGhlIGVkZ2UgY2FzZSB3aGVyZSBzb21lb25lIGlzIHBhc3NpbmcgaW4gYSBwcm9taXNlIGFzIGZpcnN0IGFyZ3VtZW50XG4gICAgLy8gVGhlIHJlYWN0LWxvYWRhYmxlIGJhYmVsIHBsdWdpbiB3aWxsIHR1cm4gZHluYW1pYyhpbXBvcnQoJy4uL2hlbGxvLXdvcmxkJykpIGludG8gZHluYW1pYygoKSA9PiBpbXBvcnQoJy4uL2hlbGxvLXdvcmxkJykpXG4gICAgLy8gVG8gbWFrZSBzdXJlIHdlIGRvbid0IGV4ZWN1dGUgdGhlIGltcG9ydCB3aXRob3V0IHJlbmRlcmluZyBmaXJzdFxuICAgIGlmIChkeW5hbWljT3B0aW9ucyBpbnN0YW5jZW9mIFByb21pc2UpIHtcbiAgICAgICAgbG9hZGFibGVPcHRpb25zLmxvYWRlciA9ICgpPT5keW5hbWljT3B0aW9ucztcbiAgICAvLyBTdXBwb3J0IGZvciBoYXZpbmcgaW1wb3J0IGFzIGEgZnVuY3Rpb24sIGVnOiBkeW5hbWljKCgpID0+IGltcG9ydCgnLi4vaGVsbG8td29ybGQnKSlcbiAgICB9IGVsc2UgaWYgKHR5cGVvZiBkeW5hbWljT3B0aW9ucyA9PT0gJ2Z1bmN0aW9uJykge1xuICAgICAgICBsb2FkYWJsZU9wdGlvbnMubG9hZGVyID0gZHluYW1pY09wdGlvbnM7XG4gICAgLy8gU3VwcG9ydCBmb3IgaGF2aW5nIGZpcnN0IGFyZ3VtZW50IGJlaW5nIG9wdGlvbnMsIGVnOiBkeW5hbWljKHtsb2FkZXI6IGltcG9ydCgnLi4vaGVsbG8td29ybGQnKX0pXG4gICAgfSBlbHNlIGlmICh0eXBlb2YgZHluYW1pY09wdGlvbnMgPT09ICdvYmplY3QnKSB7XG4gICAgICAgIGxvYWRhYmxlT3B0aW9ucyA9IF9leHRlbmRzKHt9LCBsb2FkYWJsZU9wdGlvbnMsIGR5bmFtaWNPcHRpb25zKTtcbiAgICB9XG4gICAgLy8gU3VwcG9ydCBmb3IgcGFzc2luZyBvcHRpb25zLCBlZzogZHluYW1pYyhpbXBvcnQoJy4uL2hlbGxvLXdvcmxkJyksIHtsb2FkaW5nOiAoKSA9PiA8cD5Mb2FkaW5nIHNvbWV0aGluZzwvcD59KVxuICAgIGxvYWRhYmxlT3B0aW9ucyA9IF9leHRlbmRzKHt9LCBsb2FkYWJsZU9wdGlvbnMsIG9wdGlvbnMpO1xuICAgIGNvbnN0IGxvYWRlckZuID0gbG9hZGFibGVPcHRpb25zLmxvYWRlcjtcbiAgICBjb25zdCBsb2FkZXIgPSAoKT0+bG9hZGVyRm4gIT0gbnVsbCA/IGxvYWRlckZuKCkudGhlbihjb252ZXJ0TW9kdWxlKSA6IFByb21pc2UucmVzb2x2ZShjb252ZXJ0TW9kdWxlKCgpPT5udWxsKSk7XG4gICAgLy8gY29taW5nIGZyb20gYnVpbGQvYmFiZWwvcGx1Z2lucy9yZWFjdC1sb2FkYWJsZS1wbHVnaW4uanNcbiAgICBpZiAobG9hZGFibGVPcHRpb25zLmxvYWRhYmxlR2VuZXJhdGVkKSB7XG4gICAgICAgIGxvYWRhYmxlT3B0aW9ucyA9IF9leHRlbmRzKHt9LCBsb2FkYWJsZU9wdGlvbnMsIGxvYWRhYmxlT3B0aW9ucy5sb2FkYWJsZUdlbmVyYXRlZCk7XG4gICAgICAgIGRlbGV0ZSBsb2FkYWJsZU9wdGlvbnMubG9hZGFibGVHZW5lcmF0ZWQ7XG4gICAgfVxuICAgIC8vIHN1cHBvcnQgZm9yIGRpc2FibGluZyBzZXJ2ZXIgc2lkZSByZW5kZXJpbmcsIGVnOiBkeW5hbWljKCgpID0+IGltcG9ydCgnLi4vaGVsbG8td29ybGQnKSwge3NzcjogZmFsc2V9KS5cbiAgICBpZiAodHlwZW9mIGxvYWRhYmxlT3B0aW9ucy5zc3IgPT09ICdib29sZWFuJyAmJiAhbG9hZGFibGVPcHRpb25zLnNzcikge1xuICAgICAgICBkZWxldGUgbG9hZGFibGVPcHRpb25zLndlYnBhY2s7XG4gICAgICAgIGRlbGV0ZSBsb2FkYWJsZU9wdGlvbnMubW9kdWxlcztcbiAgICAgICAgcmV0dXJuIG5vU1NSKGxvYWRhYmxlRm4sIGxvYWRhYmxlT3B0aW9ucyk7XG4gICAgfVxuICAgIHJldHVybiBsb2FkYWJsZUZuKF9leHRlbmRzKHt9LCBsb2FkYWJsZU9wdGlvbnMsIHtcbiAgICAgICAgbG9hZGVyOiBsb2FkZXJcbiAgICB9KSk7XG59XG5jb25zdCBpc1NlcnZlclNpZGUgPSB0eXBlb2Ygd2luZG93ID09PSAndW5kZWZpbmVkJztcbi8vIE5vcm1hbGl6ZSBsb2FkZXIgdG8gcmV0dXJuIHRoZSBtb2R1bGUgYXMgZm9ybSB7IGRlZmF1bHQ6IENvbXBvbmVudCB9IGZvciBgUmVhY3QubGF6eWAuXG4vLyBBbHNvIGZvciBiYWNrd2FyZCBjb21wYXRpYmxlIHNpbmNlIG5leHQvZHluYW1pYyBhbGxvd3MgdG8gcmVzb2x2ZSBhIGNvbXBvbmVudCBkaXJlY3RseSB3aXRoIGxvYWRlclxuLy8gQ2xpZW50IGNvbXBvbmVudCByZWZlcmVuY2UgcHJveHkgbmVlZCB0byBiZSBjb252ZXJ0ZWQgdG8gYSBtb2R1bGUuXG5mdW5jdGlvbiBjb252ZXJ0TW9kdWxlKG1vZCkge1xuICAgIHZhciByZWY7XG4gICAgcmV0dXJuIHtcbiAgICAgICAgZGVmYXVsdDogKChyZWYgPSBtb2QpID09IG51bGwgPyB2b2lkIDAgOiByZWYuZGVmYXVsdCkgfHwgbW9kXG4gICAgfTtcbn1cbmZ1bmN0aW9uIG5vU1NSKExvYWRhYmxlSW5pdGlhbGl6ZXIsIGxvYWRhYmxlT3B0aW9ucykge1xuICAgIC8vIFJlbW92aW5nIHdlYnBhY2sgYW5kIG1vZHVsZXMgbWVhbnMgcmVhY3QtbG9hZGFibGUgd29uJ3QgdHJ5IHByZWxvYWRpbmdcbiAgICBkZWxldGUgbG9hZGFibGVPcHRpb25zLndlYnBhY2s7XG4gICAgZGVsZXRlIGxvYWRhYmxlT3B0aW9ucy5tb2R1bGVzO1xuICAgIC8vIFRoaXMgY2hlY2sgaXMgbmVjZXNzYXJ5IHRvIHByZXZlbnQgcmVhY3QtbG9hZGFibGUgZnJvbSBpbml0aWFsaXppbmcgb24gdGhlIHNlcnZlclxuICAgIGlmICghaXNTZXJ2ZXJTaWRlKSB7XG4gICAgICAgIHJldHVybiBMb2FkYWJsZUluaXRpYWxpemVyKGxvYWRhYmxlT3B0aW9ucyk7XG4gICAgfVxuICAgIGNvbnN0IExvYWRpbmcgPSBsb2FkYWJsZU9wdGlvbnMubG9hZGluZztcbiAgICAvLyBUaGlzIHdpbGwgb25seSBiZSByZW5kZXJlZCBvbiB0aGUgc2VydmVyIHNpZGVcbiAgICByZXR1cm4gKCk9Pi8qI19fUFVSRV9fKi8gX3JlYWN0LmRlZmF1bHQuY3JlYXRlRWxlbWVudChMb2FkaW5nLCB7XG4gICAgICAgICAgICBlcnJvcjogbnVsbCxcbiAgICAgICAgICAgIGlzTG9hZGluZzogdHJ1ZSxcbiAgICAgICAgICAgIHBhc3REZWxheTogZmFsc2UsXG4gICAgICAgICAgICB0aW1lZE91dDogZmFsc2VcbiAgICAgICAgfSk7XG59XG5cbmlmICgodHlwZW9mIGV4cG9ydHMuZGVmYXVsdCA9PT0gJ2Z1bmN0aW9uJyB8fCAodHlwZW9mIGV4cG9ydHMuZGVmYXVsdCA9PT0gJ29iamVjdCcgJiYgZXhwb3J0cy5kZWZhdWx0ICE9PSBudWxsKSkgJiYgdHlwZW9mIGV4cG9ydHMuZGVmYXVsdC5fX2VzTW9kdWxlID09PSAndW5kZWZpbmVkJykge1xuICBPYmplY3QuZGVmaW5lUHJvcGVydHkoZXhwb3J0cy5kZWZhdWx0LCAnX19lc01vZHVsZScsIHsgdmFsdWU6IHRydWUgfSk7XG4gIE9iamVjdC5hc3NpZ24oZXhwb3J0cy5kZWZhdWx0LCBleHBvcnRzKTtcbiAgbW9kdWxlLmV4cG9ydHMgPSBleHBvcnRzLmRlZmF1bHQ7XG59XG5cbi8vIyBzb3VyY2VNYXBwaW5nVVJMPWR5bmFtaWMuanMubWFwIl0sIm5hbWVzIjpbIk9iamVjdCIsImRlZmluZVByb3BlcnR5IiwiZXhwb3J0cyIsInZhbHVlIiwiZGVmYXVsdCIsImR5bmFtaWMiLCJub1NTUiIsIl9leHRlbmRzIiwicmVxdWlyZSIsIl9pbnRlcm9wX3JlcXVpcmVfZGVmYXVsdCIsIl9yZWFjdCIsIl9sb2FkYWJsZSIsImR5bmFtaWNPcHRpb25zIiwib3B0aW9ucyIsImxvYWRhYmxlRm4iLCJsb2FkYWJsZU9wdGlvbnMiLCJsb2FkaW5nIiwiZXJyb3IiLCJpc0xvYWRpbmciLCJwYXN0RGVsYXkiLCJwcm9jZXNzIiwiY3JlYXRlRWxlbWVudCIsIm1lc3NhZ2UiLCJzdGFjayIsIlByb21pc2UiLCJsb2FkZXIiLCJsb2FkZXJGbiIsInRoZW4iLCJjb252ZXJ0TW9kdWxlIiwicmVzb2x2ZSIsImxvYWRhYmxlR2VuZXJhdGVkIiwic3NyIiwid2VicGFjayIsIm1vZHVsZXMiLCJpc1NlcnZlclNpZGUiLCJtb2QiLCJyZWYiLCJMb2FkYWJsZUluaXRpYWxpemVyIiwiTG9hZGluZyIsInRpbWVkT3V0IiwiX19lc01vZHVsZSIsImFzc2lnbiIsIm1vZHVsZSJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./node_modules/next/dist/shared/lib/dynamic.js\n");
-
-/***/ }),
-
-/***/ "./pages/index.tsx":
-/*!*************************!*\
-  !*** ./pages/index.tsx ***!
-  \*************************/
+/***/ 805:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Home),\n/* harmony export */   \"getStaticProps\": () => (/* binding */ getStaticProps)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/dynamic */ \"./node_modules/next/dynamic.js\");\n/* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_dynamic__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _portfolio__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../portfolio */ \"./portfolio.ts\");\n/* harmony import */ var _components_SEO__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/SEO */ \"./components/SEO.tsx\");\n\n\nconst Navigation = next_dynamic__WEBPACK_IMPORTED_MODULE_1___default()(()=>__webpack_require__.e(/*! import() */ \"components_Navigation_tsx\").then(__webpack_require__.bind(__webpack_require__, /*! ../components/Navigation */ \"./components/Navigation.tsx\")), {\n    loadableGenerated: {\n        modules: [\n            \"index.tsx -> \" + \"../components/Navigation\"\n        ]\n    }\n});\nconst Greetings = next_dynamic__WEBPACK_IMPORTED_MODULE_1___default()(()=>__webpack_require__.e(/*! import() */ \"containers_Greetings_tsx\").then(__webpack_require__.bind(__webpack_require__, /*! ../containers/Greetings */ \"./containers/Greetings.tsx\")), {\n    loadableGenerated: {\n        modules: [\n            \"index.tsx -> \" + \"../containers/Greetings\"\n        ]\n    }\n});\nconst Skills = next_dynamic__WEBPACK_IMPORTED_MODULE_1___default()(()=>__webpack_require__.e(/*! import() */ \"containers_Skills_tsx\").then(__webpack_require__.bind(__webpack_require__, /*! ../containers/Skills */ \"./containers/Skills.tsx\")), {\n    loadableGenerated: {\n        modules: [\n            \"index.tsx -> \" + \"../containers/Skills\"\n        ]\n    }\n});\nconst Proficiency = next_dynamic__WEBPACK_IMPORTED_MODULE_1___default()(()=>__webpack_require__.e(/*! import() */ \"containers_Proficiency_tsx\").then(__webpack_require__.bind(__webpack_require__, /*! ../containers/Proficiency */ \"./containers/Proficiency.tsx\")), {\n    loadableGenerated: {\n        modules: [\n            \"index.tsx -> \" + \"../containers/Proficiency\"\n        ]\n    }\n});\nconst Education = next_dynamic__WEBPACK_IMPORTED_MODULE_1___default()(()=>__webpack_require__.e(/*! import() */ \"containers_Education_tsx\").then(__webpack_require__.bind(__webpack_require__, /*! ../containers/Education */ \"./containers/Education.tsx\")), {\n    loadableGenerated: {\n        modules: [\n            \"index.tsx -> \" + \"../containers/Education\"\n        ]\n    }\n});\nconst Experience = next_dynamic__WEBPACK_IMPORTED_MODULE_1___default()(()=>__webpack_require__.e(/*! import() */ \"containers_Experience_tsx\").then(__webpack_require__.bind(__webpack_require__, /*! ../containers/Experience */ \"./containers/Experience.tsx\")), {\n    loadableGenerated: {\n        modules: [\n            \"index.tsx -> \" + \"../containers/Experience\"\n        ]\n    }\n});\nconst Projects = next_dynamic__WEBPACK_IMPORTED_MODULE_1___default()(()=>__webpack_require__.e(/*! import() */ \"containers_Projects_tsx\").then(__webpack_require__.bind(__webpack_require__, /*! ../containers/Projects */ \"./containers/Projects.tsx\")), {\n    loadableGenerated: {\n        modules: [\n            \"index.tsx -> \" + \"../containers/Projects\"\n        ]\n    }\n});\nconst Feedbacks = next_dynamic__WEBPACK_IMPORTED_MODULE_1___default()(()=>__webpack_require__.e(/*! import() */ \"containers_Feedbacks_tsx\").then(__webpack_require__.bind(__webpack_require__, /*! ../containers/Feedbacks */ \"./containers/Feedbacks.tsx\")), {\n    loadableGenerated: {\n        modules: [\n            \"index.tsx -> \" + \"../containers/Feedbacks\"\n        ]\n    }\n});\nconst GithubProfileCard = next_dynamic__WEBPACK_IMPORTED_MODULE_1___default()(()=>__webpack_require__.e(/*! import() */ \"components_GithubProfileCard_tsx\").then(__webpack_require__.bind(__webpack_require__, /*! ../components/GithubProfileCard */ \"./components/GithubProfileCard.tsx\")), {\n    loadableGenerated: {\n        modules: [\n            \"index.tsx -> \" + \"../components/GithubProfileCard\"\n        ]\n    }\n});\n\n\nfunction Home({ githubProfileData  }) {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_SEO__WEBPACK_IMPORTED_MODULE_3__[\"default\"], {}, void 0, false, {\n                fileName: \"C:\\\\xampp\\\\htdocs\\\\patelbhavika46.github.io\\\\pages\\\\index.tsx\",\n                lineNumber: 18,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(Navigation, {}, void 0, false, {\n                fileName: \"C:\\\\xampp\\\\htdocs\\\\patelbhavika46.github.io\\\\pages\\\\index.tsx\",\n                lineNumber: 19,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(Greetings, {}, void 0, false, {\n                fileName: \"C:\\\\xampp\\\\htdocs\\\\patelbhavika46.github.io\\\\pages\\\\index.tsx\",\n                lineNumber: 20,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(Skills, {}, void 0, false, {\n                fileName: \"C:\\\\xampp\\\\htdocs\\\\patelbhavika46.github.io\\\\pages\\\\index.tsx\",\n                lineNumber: 21,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(Proficiency, {}, void 0, false, {\n                fileName: \"C:\\\\xampp\\\\htdocs\\\\patelbhavika46.github.io\\\\pages\\\\index.tsx\",\n                lineNumber: 22,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(Education, {}, void 0, false, {\n                fileName: \"C:\\\\xampp\\\\htdocs\\\\patelbhavika46.github.io\\\\pages\\\\index.tsx\",\n                lineNumber: 23,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(Experience, {}, void 0, false, {\n                fileName: \"C:\\\\xampp\\\\htdocs\\\\patelbhavika46.github.io\\\\pages\\\\index.tsx\",\n                lineNumber: 24,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(Feedbacks, {}, void 0, false, {\n                fileName: \"C:\\\\xampp\\\\htdocs\\\\patelbhavika46.github.io\\\\pages\\\\index.tsx\",\n                lineNumber: 25,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(Projects, {}, void 0, false, {\n                fileName: \"C:\\\\xampp\\\\htdocs\\\\patelbhavika46.github.io\\\\pages\\\\index.tsx\",\n                lineNumber: 26,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(GithubProfileCard, {\n                ...githubProfileData\n            }, void 0, false, {\n                fileName: \"C:\\\\xampp\\\\htdocs\\\\patelbhavika46.github.io\\\\pages\\\\index.tsx\",\n                lineNumber: 27,\n                columnNumber: 7\n            }, this)\n        ]\n    }, void 0, true, {\n        fileName: \"C:\\\\xampp\\\\htdocs\\\\patelbhavika46.github.io\\\\pages\\\\index.tsx\",\n        lineNumber: 17,\n        columnNumber: 5\n    }, this);\n}\n// Home.prototype = {\n//   githubProfileData: PropTypes.object.isRequired,\n// };\nasync function getStaticProps() {\n    const githubProfileData = await fetch(`https://api.github.com/users/${_portfolio__WEBPACK_IMPORTED_MODULE_2__.openSource.githubUserName}`).then((res)=>res.json());\n    return {\n        props: {\n            githubProfileData\n        }\n    };\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9pbmRleC50c3guanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7O0FBQW1DO0FBQ25DLE1BQU1DLGFBQWFELG1EQUFPQSxDQUFDLElBQU0scUxBQWtDOzs7Ozs7O0FBQ25FLE1BQU1FLFlBQVlGLG1EQUFPQSxDQUFDLElBQU0sa0xBQWlDOzs7Ozs7O0FBQ2pFLE1BQU1HLFNBQVNILG1EQUFPQSxDQUFDLElBQU0seUtBQThCOzs7Ozs7O0FBQzNELE1BQU1JLGNBQWNKLG1EQUFPQSxDQUFDLElBQU0sd0xBQW1DOzs7Ozs7O0FBQ3JFLE1BQU1LLFlBQVlMLG1EQUFPQSxDQUFDLElBQU0sa0xBQWlDOzs7Ozs7O0FBQ2pFLE1BQU1NLGFBQWFOLG1EQUFPQSxDQUFDLElBQU0scUxBQWtDOzs7Ozs7O0FBQ25FLE1BQU1PLFdBQVdQLG1EQUFPQSxDQUFDLElBQU0sK0tBQWdDOzs7Ozs7O0FBQy9ELE1BQU1RLFlBQVlSLG1EQUFPQSxDQUFDLElBQU0sa0xBQWlDOzs7Ozs7O0FBQ2pFLE1BQU1TLG9CQUFvQlQsbURBQU9BLENBQUMsSUFBTSwwTUFBeUM7Ozs7Ozs7QUFDdkM7QUFDTjtBQUdyQixTQUFTWSxLQUFLLEVBQUVDLGtCQUFpQixFQUE4QixFQUFFO0lBQzlFLHFCQUNFLDhEQUFDQzs7MEJBQ0MsOERBQUNILHVEQUFHQTs7Ozs7MEJBQ0osOERBQUNWOzs7OzswQkFDRCw4REFBQ0M7Ozs7OzBCQUNELDhEQUFDQzs7Ozs7MEJBQ0QsOERBQUNDOzs7OzswQkFDRCw4REFBQ0M7Ozs7OzBCQUNELDhEQUFDQzs7Ozs7MEJBQ0QsOERBQUNFOzs7OzswQkFDRCw4REFBQ0Q7Ozs7OzBCQUNELDhEQUFDRTtnQkFBbUIsR0FBR0ksaUJBQWlCOzs7Ozs7Ozs7Ozs7QUFHOUMsQ0FBQztBQUVELHFCQUFxQjtBQUNyQixvREFBb0Q7QUFDcEQsS0FBSztBQUVFLGVBQWVFLGlCQUFpQjtJQUNyQyxNQUFNRixvQkFBb0MsTUFBTUcsTUFDOUMsQ0FBQyw2QkFBNkIsRUFBRU4saUVBQXlCLENBQUMsQ0FBQyxFQUMzRFEsSUFBSSxDQUFDQyxDQUFBQSxNQUFPQSxJQUFJQyxJQUFJO0lBRXRCLE9BQU87UUFDTEMsT0FBTztZQUFFUjtRQUFrQjtJQUM3QjtBQUNGLENBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9kZXZlbG9wZXItcG9ydGZvbGlvLy4vcGFnZXMvaW5kZXgudHN4PzA3ZmYiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IGR5bmFtaWMgZnJvbSBcIm5leHQvZHluYW1pY1wiO1xyXG5jb25zdCBOYXZpZ2F0aW9uID0gZHluYW1pYygoKSA9PiBpbXBvcnQoXCIuLi9jb21wb25lbnRzL05hdmlnYXRpb25cIikpO1xyXG5jb25zdCBHcmVldGluZ3MgPSBkeW5hbWljKCgpID0+IGltcG9ydChcIi4uL2NvbnRhaW5lcnMvR3JlZXRpbmdzXCIpKTtcclxuY29uc3QgU2tpbGxzID0gZHluYW1pYygoKSA9PiBpbXBvcnQoXCIuLi9jb250YWluZXJzL1NraWxsc1wiKSk7XHJcbmNvbnN0IFByb2ZpY2llbmN5ID0gZHluYW1pYygoKSA9PiBpbXBvcnQoXCIuLi9jb250YWluZXJzL1Byb2ZpY2llbmN5XCIpKTtcclxuY29uc3QgRWR1Y2F0aW9uID0gZHluYW1pYygoKSA9PiBpbXBvcnQoXCIuLi9jb250YWluZXJzL0VkdWNhdGlvblwiKSk7XHJcbmNvbnN0IEV4cGVyaWVuY2UgPSBkeW5hbWljKCgpID0+IGltcG9ydChcIi4uL2NvbnRhaW5lcnMvRXhwZXJpZW5jZVwiKSk7XHJcbmNvbnN0IFByb2plY3RzID0gZHluYW1pYygoKSA9PiBpbXBvcnQoXCIuLi9jb250YWluZXJzL1Byb2plY3RzXCIpKTtcclxuY29uc3QgRmVlZGJhY2tzID0gZHluYW1pYygoKSA9PiBpbXBvcnQoXCIuLi9jb250YWluZXJzL0ZlZWRiYWNrc1wiKSk7XHJcbmNvbnN0IEdpdGh1YlByb2ZpbGVDYXJkID0gZHluYW1pYygoKSA9PiBpbXBvcnQoXCIuLi9jb21wb25lbnRzL0dpdGh1YlByb2ZpbGVDYXJkXCIpKTtcclxuaW1wb3J0IHsgb3BlblNvdXJjZSB9IGZyb20gXCIuLi9wb3J0Zm9saW9cIjtcclxuaW1wb3J0IFNFTyBmcm9tIFwiLi4vY29tcG9uZW50cy9TRU9cIjtcclxuaW1wb3J0IHsgR2l0aHViVXNlclR5cGUgfSBmcm9tIFwiLi4vdHlwZXNcIjtcclxuXHJcbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIEhvbWUoeyBnaXRodWJQcm9maWxlRGF0YSB9OiB7IGdpdGh1YlByb2ZpbGVEYXRhOiBhbnkgfSkge1xyXG4gIHJldHVybiAoXHJcbiAgICA8ZGl2PlxyXG4gICAgICA8U0VPIC8+XHJcbiAgICAgIDxOYXZpZ2F0aW9uIC8+XHJcbiAgICAgIDxHcmVldGluZ3MgLz5cclxuICAgICAgPFNraWxscyAvPlxyXG4gICAgICA8UHJvZmljaWVuY3kgLz5cclxuICAgICAgPEVkdWNhdGlvbiAvPlxyXG4gICAgICA8RXhwZXJpZW5jZSAvPlxyXG4gICAgICA8RmVlZGJhY2tzIC8+XHJcbiAgICAgIDxQcm9qZWN0cyAvPlxyXG4gICAgICA8R2l0aHViUHJvZmlsZUNhcmQgey4uLmdpdGh1YlByb2ZpbGVEYXRhfSAvPlxyXG4gICAgPC9kaXY+XHJcbiAgKTtcclxufVxyXG5cclxuLy8gSG9tZS5wcm90b3R5cGUgPSB7XHJcbi8vICAgZ2l0aHViUHJvZmlsZURhdGE6IFByb3BUeXBlcy5vYmplY3QuaXNSZXF1aXJlZCxcclxuLy8gfTtcclxuXHJcbmV4cG9ydCBhc3luYyBmdW5jdGlvbiBnZXRTdGF0aWNQcm9wcygpIHtcclxuICBjb25zdCBnaXRodWJQcm9maWxlRGF0YTogR2l0aHViVXNlclR5cGUgPSBhd2FpdCBmZXRjaChcclxuICAgIGBodHRwczovL2FwaS5naXRodWIuY29tL3VzZXJzLyR7b3BlblNvdXJjZS5naXRodWJVc2VyTmFtZX1gXHJcbiAgKS50aGVuKHJlcyA9PiByZXMuanNvbigpKTtcclxuXHJcbiAgcmV0dXJuIHtcclxuICAgIHByb3BzOiB7IGdpdGh1YlByb2ZpbGVEYXRhIH0sXHJcbiAgfTtcclxufVxyXG4iXSwibmFtZXMiOlsiZHluYW1pYyIsIk5hdmlnYXRpb24iLCJHcmVldGluZ3MiLCJTa2lsbHMiLCJQcm9maWNpZW5jeSIsIkVkdWNhdGlvbiIsIkV4cGVyaWVuY2UiLCJQcm9qZWN0cyIsIkZlZWRiYWNrcyIsIkdpdGh1YlByb2ZpbGVDYXJkIiwib3BlblNvdXJjZSIsIlNFTyIsIkhvbWUiLCJnaXRodWJQcm9maWxlRGF0YSIsImRpdiIsImdldFN0YXRpY1Byb3BzIiwiZmV0Y2giLCJnaXRodWJVc2VyTmFtZSIsInRoZW4iLCJyZXMiLCJqc29uIiwicHJvcHMiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./pages/index.tsx\n");
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  "Bv": () => (/* binding */ SkillBars),
+  "E5": () => (/* binding */ educationInfo),
+  "b8": () => (/* binding */ experience),
+  "KK": () => (/* binding */ feedbacks),
+  "c0": () => (/* binding */ greetings),
+  "qL": () => (/* binding */ openSource),
+  "q": () => (/* binding */ projects),
+  "hD": () => (/* binding */ seoData),
+  "LO": () => (/* binding */ skillsSection),
+  "KT": () => (/* binding */ socialLinks)
+});
+
+// UNUSED EXPORTS: contact
+
+;// CONCATENATED MODULE: external "react-easy-emoji"
+const external_react_easy_emoji_namespaceObject = require("react-easy-emoji");
+var external_react_easy_emoji_default = /*#__PURE__*/__webpack_require__.n(external_react_easy_emoji_namespaceObject);
+;// CONCATENATED MODULE: ./portfolio.ts
+
+const greetings = {
+    name: "Bhavika Patel",
+    title: "Hi all, I'm Bhavika",
+    description: "I'm a passionate Full Stack web developer with experience developing Full Stack web applications with PHP, Symfony, Laravel, Yii, Javascript, React.js and Typescript. I am strongly interested in learning new technologies and implementing them in my projects. I'm a self-motivated and hardworking individual who is always ready to learn new things and work in a team.",
+    resumeLink: "#"
+};
+const openSource = {
+    githubUserName: "patelbhavika46"
+};
+const contact = {};
+const socialLinks = {
+    email: "mailto:bhavika.patel3005@gmail.com",
+    linkedin: "https://www.linkedin.com/in/bhavika30",
+    github: "https://github.com/patelbhavika46"
+};
+const skillsSection = {
+    title: "What I do",
+    subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+    data: [
+        {
+            title: "Full Stack Development",
+            lottieAnimationFile: "/lottie/skills/fullstack.json",
+            skills: [
+                external_react_easy_emoji_default()("⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js and Vue.js"),
+                external_react_easy_emoji_default()("⚡ Building scalable application using Symfony and Laravel"),
+                external_react_easy_emoji_default()("⚡ Building RESTful APIs in Symfony & Laravel REST Framework")
+            ],
+            softwareSkills: [
+                {
+                    skillName: "PHP",
+                    iconifyTag: "logos:php"
+                },
+                // {
+                //   skillName: "Typescript",
+                //   iconifyTag: "vscode-icons:file-type-django",
+                // },
+                {
+                    skillName: "JavaScript",
+                    iconifyTag: "logos:javascript"
+                },
+                {
+                    skillName: "Reactjs",
+                    iconifyTag: "vscode-icons:file-type-reactjs"
+                },
+                // {
+                //   skillName: "Vuejs",
+                //   iconifyTag: "vscode-icons:file-type-light-vue",
+                // },
+                {
+                    skillName: "AWS",
+                    iconifyTag: "logos:aws"
+                },
+                {
+                    skillName: "Mysql",
+                    iconifyTag: "logos:mysql-icon"
+                },
+                {
+                    skillName: "Github",
+                    iconifyTag: "akar-icons:github-fill"
+                },
+                {
+                    skillName: "Docker",
+                    iconifyTag: "logos:docker-icon"
+                }
+            ]
+        }
+    ]
+};
+const SkillBars = [
+    {
+        Stack: "Frontend / Design",
+        progressPercentage: "85"
+    },
+    {
+        Stack: "Backend",
+        progressPercentage: "90"
+    },
+    {
+        Stack: "Programming",
+        progressPercentage: "95"
+    }
+];
+const educationInfo = [
+    {
+        schoolName: "Gujarat Technological university",
+        subHeader: "Bachelor of Computer Engineering",
+        duration: "July 2009 - May 2013",
+        desc: "",
+        grade: "",
+        descBullets: []
+    }
+];
+const experience = [
+    {
+        role: "Senior Software Developer",
+        company: "Ecosmob Technologies Pvt Ltd.",
+        companyLogo: "/img/icons/common/ecosmob_logo.jpg",
+        date: "July 2013 - Sept 2018",
+        desc: "I crafted backends for diverse web apps, APIs, and WebSockets in e-commerce, podcasts, and property management. Managed server upkeep, deployments on Linux, Heroku, and AWS S3. Implemented PyTest for automated unit and integration testing, slashing 4 hours of manual testing each sprint, fortifying a dependable and flawless code foundation."
+    },
+    {
+        role: "Full Stack Developer",
+        company: "Halight Inc.",
+        companyLogo: "/img/icons/common/halight_logo.jpg",
+        date: "Nov 2018 - April 2024",
+        desc: "Crafted robust mobile application backends employing Django, Python, and REST APIs. Leveraged Django REST Framework, PostgreSQL, AWS, Firebase, Stripe, and WebSocket for efficient development. Collaborated across teams to surpass client expectations. Designed intuitive UIs, empowering clients to effortlessly manage their applications with a visually captivating interface."
+    }
+];
+const projects = [
+    {
+        name: "Call Center",
+        desc: "Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer."
+    },
+    {
+        name: "Cosmo PBX",
+        desc: "A Podcast Platform where creators can easily publish and sell their podcasts, and users can purchase with Handcash BitcoinSV, the future of fast and secure transactions."
+    },
+    {
+        name: "MultiSend",
+        desc: "O Mejor Oferta is a mobile marketplace for buying and selling items nearby, helping users find deals on things they want and make money from items they no longer need."
+    },
+    {
+        name: "RetailSwitch",
+        desc: "A Ecommerce Platform, where shopping meets the future! With HandCash BitcoinSV integration, you can authenticate and purchase products with ease and confidence."
+    },
+    {
+        name: "Event Management System",
+        desc: "A Ecommerce Platform, where shopping meets the future! With HandCash BitcoinSV integration, you can authenticate and purchase products with ease and confidence."
+    },
+    {
+        name: "Learning Management System",
+        desc: "A Ecommerce Platform, where shopping meets the future! With HandCash BitcoinSV integration, you can authenticate and purchase products with ease and confidence."
+    }
+];
+const feedbacks = [
+    {
+        name: "Akshay Shah",
+        role: "Sr. Software Developer at Ecosmob Technologies Pvt Ltd.",
+        feedback: "Bhavika stands out as an exceptional leader in the technical realm. Her ability to lead and train teams is remarkable, showcasing not just her knowledge but also her commitment to collective growth. Bhavika possesses a rare talent for resolving complex issues with ease and efficiency. Her skills extend beyond technical expertise, as she masterfully manages the delicate balance between client needs, company goals, and team dynamics. She is one of the few who skillfully navigates challenges with a solution-oriented approach. Bhavika is truly a valuable asset in any technical environment."
+    },
+    {
+        name: "Dhruten Dhanani",
+        role: "Sr. Software Developer at Ecosmob Technologies Pvt Ltd.",
+        feedback: "Bhavika is extraordinary mixture of talent and responsibility with having highly effective and efficient work ethics. I had seen her smooth transition from Trainee Engineer to Sr. Developer in our organization while working with her since last 5 years. It was always pleasure to work with her whether it be in same or project or in different ones, she is always ready help and solved numerous crucial issues on the floor. Apart from development she is flawless in managing big projects and sub-ordinates simultaneously. Moreover many of the clients had admired her for to the mark quality and in-time deliverance. Most prominent aspect of her is to deal with stressed situations in almost unmoved behaviour, she act very responsibly all the time. Everyone wanted to work with her in the company premises as she believes in continuous learning and improvement. Whoever had worked with her is having better career growth throughout her presence. Any employer can be fully dependent on her about given work and forget the rest, she will deliver for sure. She is kind of rare personality that's why any company would want her in their work force."
+    },
+    {
+        name: "Foram Parikh",
+        role: "Team Lead at Ecosmob Technologies Pvt Ltd.",
+        feedback: "She sounds very good technically. She is always ready to adapt new technology and very determined to work. She is always ready to support other in a team.she works with dedicaton and quality.very good team member and problem solver.Goes extra mile whenever needed in any project.she have good leadership qualities.I highly recommend her and best wishes for the future!"
+    },
+    {
+        name: "Jankit Shah",
+        role: "Sr Project Manager at Ecosmob Technologies Pvt Ltd.",
+        feedback: "Bhavika is having god gift to learn new technologies faster and good analysis, research skills. These helps her to meet all project's requirement and achieve results. She is very calm, solution oriented and self motivated. Quality is always one of the best. She has worked with me for almost a year and I am always happy with her project's outcome. Best of luck and keep up good work always !!"
+    },
+    {
+        name: "Jay Raval",
+        role: "Sr Software Developer at Ecosmob Technologies Pvt Ltd.",
+        feedback: "Working with Bhavika, I found her a very good skilled IT professional. She has very sound knowledge of current web development technologies and language. She is a very good and quick learner. Has an attitude of never give up. She is a very good team member and a kind leader. Her analytical skill gives advantage over different client communication and requirement analysis.She worked on several VoIP Projects as well. She is good at all latest web development technologies and various frameworks. A good human being and a skilled professional."
+    },
+    {
+        name: "Alap Shah",
+        role: "Team Lead at Ecosmob Technologies Pvt Ltd.",
+        feedback: "She is a smart professional, very focus, target oriented person and quick learner in any technology domain. She's a true asset for any organization as she can able to manage projects by single handed like a wonder woman with a WIN WIN attitude.I wish her all the good lucks in her current and future endeavors."
+    },
+    {
+        name: "Ghanshyam Katriya",
+        role: "Sr Software Developer at Ecosmob Technologies Pvt Ltd.",
+        feedback: "It was a pleasure of working with Bhavika for more than 2 years. During this time, we worked together on multiple projects based on PHP technology (Yii Framework). She is a person with a strong ownership for results all the time. She is creative, energetic, solutions oriented and highly motivated with great communication skills. She is an asset to any company that she’s with."
+    },
+    {
+        name: "Twisha Mankad",
+        role: "Sr Software Developer at Ecosmob Technologies Pvt Ltd.",
+        feedback: "Bhavika is a detail-oriented and competent developer. She meets challenges head on and completes even the toughest of tasks in a timely manner. Not only are her skills valuable to any team she is also a nice and warm person to have around. She is helpful and always eager to learn more. I truly believe Bhavika would be a great addition to any team. "
+    }
+];
+// See object prototype on /types/section.ts page
+const seoData = {
+    title: "Bhavika Patel",
+    description: greetings.description,
+    author: "Bhavika Patel",
+    image: "https://avatars.githubusercontent.com/u/59178380?v=4",
+    url: "https://patelbhavika46.github.io",
+    keywords: [
+        "Bhavika",
+        "Bhavika Patel",
+        // "@patelbhavika46",
+        // "patelbhavika46",
+        "Portfolio",
+        "Bhavika Portfolio ",
+        "Bhavika Patel Portfolio"
+    ]
+};
+
 
 /***/ }),
 
-/***/ "./portfolio.ts":
-/*!**********************!*\
-  !*** ./portfolio.ts ***!
-  \**********************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"SkillBars\": () => (/* binding */ SkillBars),\n/* harmony export */   \"contact\": () => (/* binding */ contact),\n/* harmony export */   \"educationInfo\": () => (/* binding */ educationInfo),\n/* harmony export */   \"experience\": () => (/* binding */ experience),\n/* harmony export */   \"feedbacks\": () => (/* binding */ feedbacks),\n/* harmony export */   \"greetings\": () => (/* binding */ greetings),\n/* harmony export */   \"openSource\": () => (/* binding */ openSource),\n/* harmony export */   \"projects\": () => (/* binding */ projects),\n/* harmony export */   \"seoData\": () => (/* binding */ seoData),\n/* harmony export */   \"skillsSection\": () => (/* binding */ skillsSection),\n/* harmony export */   \"socialLinks\": () => (/* binding */ socialLinks)\n/* harmony export */ });\n/* harmony import */ var react_easy_emoji__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react-easy-emoji */ \"react-easy-emoji\");\n/* harmony import */ var react_easy_emoji__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_easy_emoji__WEBPACK_IMPORTED_MODULE_0__);\n\nconst greetings = {\n    name: \"Bhavika Patel\",\n    title: \"Hi all, I'm Bhavika\",\n    description: \"I'm a passionate Full Stack web developer with experience developing Full Stack web applications with PHP, Symfony, Laravel, Yii, Javascript, React.js and Typescript. I am strongly interested in learning new technologies and implementing them in my projects. I'm a self-motivated and hardworking individual who is always ready to learn new things and work in a team.\",\n    resumeLink: \"#\"\n};\nconst openSource = {\n    githubUserName: \"patelbhavika46\"\n};\nconst contact = {};\nconst socialLinks = {\n    email: \"mailto:bhavika.patel3005@gmail.com\",\n    linkedin: \"https://www.linkedin.com/in/bhavika30\",\n    github: \"https://github.com/patelbhavika46\"\n};\nconst skillsSection = {\n    title: \"What I do\",\n    subTitle: \"CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK\",\n    data: [\n        {\n            title: \"Full Stack Development\",\n            lottieAnimationFile: \"/lottie/skills/fullstack.json\",\n            skills: [\n                react_easy_emoji__WEBPACK_IMPORTED_MODULE_0___default()(\"⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js and Vue.js\"),\n                react_easy_emoji__WEBPACK_IMPORTED_MODULE_0___default()(\"⚡ Building scalable application using Symfony and Laravel\"),\n                react_easy_emoji__WEBPACK_IMPORTED_MODULE_0___default()(\"⚡ Building RESTful APIs in Symfony & Laravel REST Framework\")\n            ],\n            softwareSkills: [\n                {\n                    skillName: \"PHP\",\n                    iconifyTag: \"logos:php\"\n                },\n                // {\n                //   skillName: \"Typescript\",\n                //   iconifyTag: \"vscode-icons:file-type-django\",\n                // },\n                {\n                    skillName: \"JavaScript\",\n                    iconifyTag: \"logos:javascript\"\n                },\n                {\n                    skillName: \"Reactjs\",\n                    iconifyTag: \"vscode-icons:file-type-reactjs\"\n                },\n                // {\n                //   skillName: \"Vuejs\",\n                //   iconifyTag: \"vscode-icons:file-type-light-vue\",\n                // },\n                {\n                    skillName: \"AWS\",\n                    iconifyTag: \"logos:aws\"\n                },\n                {\n                    skillName: \"Mysql\",\n                    iconifyTag: \"logos:mysql-icon\"\n                },\n                {\n                    skillName: \"Github\",\n                    iconifyTag: \"akar-icons:github-fill\"\n                },\n                {\n                    skillName: \"Docker\",\n                    iconifyTag: \"logos:docker-icon\"\n                }\n            ]\n        }\n    ]\n};\nconst SkillBars = [\n    {\n        Stack: \"Frontend / Design\",\n        progressPercentage: \"85\"\n    },\n    {\n        Stack: \"Backend\",\n        progressPercentage: \"90\"\n    },\n    {\n        Stack: \"Programming\",\n        progressPercentage: \"95\"\n    }\n];\nconst educationInfo = [\n    {\n        schoolName: \"Gujarat Technological university\",\n        subHeader: \"Bachelor of Computer Engineering\",\n        duration: \"July 2009 - May 2013\",\n        desc: \"\",\n        grade: \"\",\n        descBullets: []\n    }\n];\nconst experience = [\n    {\n        role: \"Senior Software Developer\",\n        company: \"Ecosmob Technologies Pvt Ltd.\",\n        companyLogo: \"/img/icons/common/ecosmob_logo.jpg\",\n        date: \"July 2013 - Sept 2018\",\n        desc: \"I crafted backends for diverse web apps, APIs, and WebSockets in e-commerce, podcasts, and property management. Managed server upkeep, deployments on Linux, Heroku, and AWS S3. Implemented PyTest for automated unit and integration testing, slashing 4 hours of manual testing each sprint, fortifying a dependable and flawless code foundation.\"\n    },\n    {\n        role: \"Full Stack Developer\",\n        company: \"Halight Inc.\",\n        companyLogo: \"/img/icons/common/halight_logo.jpg\",\n        date: \"Nov 2018 - April 2024\",\n        desc: \"Crafted robust mobile application backends employing Django, Python, and REST APIs. Leveraged Django REST Framework, PostgreSQL, AWS, Firebase, Stripe, and WebSocket for efficient development. Collaborated across teams to surpass client expectations. Designed intuitive UIs, empowering clients to effortlessly manage their applications with a visually captivating interface.\"\n    }\n];\nconst projects = [\n    {\n        name: \"Call Center\",\n        desc: \"Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.\"\n    },\n    {\n        name: \"Cosmo PBX\",\n        desc: \"A Podcast Platform where creators can easily publish and sell their podcasts, and users can purchase with Handcash BitcoinSV, the future of fast and secure transactions.\"\n    },\n    {\n        name: \"MultiSend\",\n        desc: \"O Mejor Oferta is a mobile marketplace for buying and selling items nearby, helping users find deals on things they want and make money from items they no longer need.\"\n    },\n    {\n        name: \"RetailSwitch\",\n        desc: \"A Ecommerce Platform, where shopping meets the future! With HandCash BitcoinSV integration, you can authenticate and purchase products with ease and confidence.\"\n    },\n    {\n        name: \"Event Management System\",\n        desc: \"A Ecommerce Platform, where shopping meets the future! With HandCash BitcoinSV integration, you can authenticate and purchase products with ease and confidence.\"\n    },\n    {\n        name: \"Learning Management System\",\n        desc: \"A Ecommerce Platform, where shopping meets the future! With HandCash BitcoinSV integration, you can authenticate and purchase products with ease and confidence.\"\n    }\n];\nconst feedbacks = [\n    {\n        name: \"Akshay Shah\",\n        role: \"Sr. Software Developer at Ecosmob Technologies Pvt Ltd.\",\n        feedback: \"Bhavika stands out as an exceptional leader in the technical realm. Her ability to lead and train teams is remarkable, showcasing not just her knowledge but also her commitment to collective growth. Bhavika possesses a rare talent for resolving complex issues with ease and efficiency. Her skills extend beyond technical expertise, as she masterfully manages the delicate balance between client needs, company goals, and team dynamics. She is one of the few who skillfully navigates challenges with a solution-oriented approach. Bhavika is truly a valuable asset in any technical environment.\"\n    },\n    {\n        name: \"Dhruten Dhanani\",\n        role: \"Sr. Software Developer at Ecosmob Technologies Pvt Ltd.\",\n        feedback: \"Bhavika is extraordinary mixture of talent and responsibility with having highly effective and efficient work ethics. I had seen her smooth transition from Trainee Engineer to Sr. Developer in our organization while working with her since last 5 years. It was always pleasure to work with her whether it be in same or project or in different ones, she is always ready help and solved numerous crucial issues on the floor. Apart from development she is flawless in managing big projects and sub-ordinates simultaneously. Moreover many of the clients had admired her for to the mark quality and in-time deliverance. Most prominent aspect of her is to deal with stressed situations in almost unmoved behaviour, she act very responsibly all the time. Everyone wanted to work with her in the company premises as she believes in continuous learning and improvement. Whoever had worked with her is having better career growth throughout her presence. Any employer can be fully dependent on her about given work and forget the rest, she will deliver for sure. She is kind of rare personality that's why any company would want her in their work force.\"\n    },\n    {\n        name: \"Foram Parikh\",\n        role: \"Team Lead at Ecosmob Technologies Pvt Ltd.\",\n        feedback: \"She sounds very good technically. She is always ready to adapt new technology and very determined to work. She is always ready to support other in a team.she works with dedicaton and quality.very good team member and problem solver.Goes extra mile whenever needed in any project.she have good leadership qualities.I highly recommend her and best wishes for the future!\"\n    },\n    {\n        name: \"Jankit Shah\",\n        role: \"Sr Project Manager at Ecosmob Technologies Pvt Ltd.\",\n        feedback: \"Bhavika is having god gift to learn new technologies faster and good analysis, research skills. These helps her to meet all project's requirement and achieve results. She is very calm, solution oriented and self motivated. Quality is always one of the best. She has worked with me for almost a year and I am always happy with her project's outcome. Best of luck and keep up good work always !!\"\n    },\n    {\n        name: \"Jay Raval\",\n        role: \"Sr Software Developer at Ecosmob Technologies Pvt Ltd.\",\n        feedback: \"Working with Bhavika, I found her a very good skilled IT professional. She has very sound knowledge of current web development technologies and language. She is a very good and quick learner. Has an attitude of never give up. She is a very good team member and a kind leader. Her analytical skill gives advantage over different client communication and requirement analysis.She worked on several VoIP Projects as well. She is good at all latest web development technologies and various frameworks. A good human being and a skilled professional.\"\n    },\n    {\n        name: \"Alap Shah\",\n        role: \"Team Lead at Ecosmob Technologies Pvt Ltd.\",\n        feedback: \"She is a smart professional, very focus, target oriented person and quick learner in any technology domain. She's a true asset for any organization as she can able to manage projects by single handed like a wonder woman with a WIN WIN attitude.I wish her all the good lucks in her current and future endeavors.\"\n    },\n    {\n        name: \"Ghanshyam Katriya\",\n        role: \"Sr Software Developer at Ecosmob Technologies Pvt Ltd.\",\n        feedback: \"It was a pleasure of working with Bhavika for more than 2 years. During this time, we worked together on multiple projects based on PHP technology (Yii Framework). She is a person with a strong ownership for results all the time. She is creative, energetic, solutions oriented and highly motivated with great communication skills. She is an asset to any company that she’s with.\"\n    },\n    {\n        name: \"Twisha Mankad\",\n        role: \"Sr Software Developer at Ecosmob Technologies Pvt Ltd.\",\n        feedback: \"Bhavika is a detail-oriented and competent developer. She meets challenges head on and completes even the toughest of tasks in a timely manner. Not only are her skills valuable to any team she is also a nice and warm person to have around. She is helpful and always eager to learn more. I truly believe Bhavika would be a great addition to any team. \"\n    }\n];\n// See object prototype on /types/section.ts page\nconst seoData = {\n    title: \"Bhavika Patel\",\n    description: greetings.description,\n    author: \"Bhavika Patel\",\n    image: \"https://avatars.githubusercontent.com/u/59178380?v=4\",\n    url: \"https://patelbhavika46.github.io\",\n    keywords: [\n        \"Bhavika\",\n        \"Bhavika Patel\",\n        // \"@patelbhavika46\",\n        // \"patelbhavika46\",\n        \"Portfolio\",\n        \"Bhavika Portfolio \",\n        \"Bhavika Patel Portfolio\"\n    ]\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wb3J0Zm9saW8udHMuanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7OztBQUFxQztBQWE5QixNQUFNQyxZQUEyQjtJQUN0Q0MsTUFBTTtJQUNOQyxPQUFPO0lBQ1BDLGFBQ0U7SUFDRkMsWUFBWTtBQUNkLEVBQUU7QUFFSyxNQUFNQyxhQUFhO0lBQ3hCQyxnQkFBZ0I7QUFDbEIsRUFBRTtBQUVLLE1BQU1DLFVBQVUsQ0FBQyxFQUFFO0FBRW5CLE1BQU1DLGNBQStCO0lBQzFDQyxPQUFPO0lBQ1BDLFVBQVU7SUFDVkMsUUFBUTtBQUlWLEVBQUU7QUFFSyxNQUFNQyxnQkFBbUM7SUFDOUNWLE9BQU87SUFDUFcsVUFBVTtJQUNWQyxNQUFNO1FBQ0o7WUFDRVosT0FBTztZQUNQYSxxQkFBcUI7WUFDckJDLFFBQVE7Z0JBQ05qQix1REFBS0EsQ0FBQztnQkFDTkEsdURBQUtBLENBQUM7Z0JBQ05BLHVEQUFLQSxDQUFDO2FBQ1A7WUFDRGtCLGdCQUFnQjtnQkFDZDtvQkFDRUMsV0FBVztvQkFDWEMsWUFBWTtnQkFDZDtnQkFDQSxJQUFJO2dCQUNKLDZCQUE2QjtnQkFDN0IsaURBQWlEO2dCQUNqRCxLQUFLO2dCQUNMO29CQUNFRCxXQUFXO29CQUNYQyxZQUFZO2dCQUNkO2dCQUNBO29CQUNFRCxXQUFXO29CQUNYQyxZQUFZO2dCQUNkO2dCQUNBLElBQUk7Z0JBQ0osd0JBQXdCO2dCQUN4QixvREFBb0Q7Z0JBQ3BELEtBQUs7Z0JBQ0w7b0JBQ0VELFdBQVc7b0JBQ1hDLFlBQVk7Z0JBQ2Q7Z0JBQ0E7b0JBQ0VELFdBQVc7b0JBQ1hDLFlBQVk7Z0JBQ2Q7Z0JBQ0E7b0JBQ0VELFdBQVc7b0JBQ1hDLFlBQVk7Z0JBQ2Q7Z0JBQ0E7b0JBQ0VELFdBQVc7b0JBQ1hDLFlBQVk7Z0JBQ2Q7YUFDRDtRQUNIO0tBQ0Q7QUFDSCxFQUFFO0FBRUssTUFBTUMsWUFBNkI7SUFDeEM7UUFDRUMsT0FBTztRQUNQQyxvQkFBb0I7SUFDdEI7SUFDQTtRQUNFRCxPQUFPO1FBQ1BDLG9CQUFvQjtJQUN0QjtJQUNBO1FBQ0VELE9BQU87UUFDUEMsb0JBQW9CO0lBQ3RCO0NBQ0QsQ0FBQztBQUVLLE1BQU1DLGdCQUFpQztJQUM1QztRQUNFQyxZQUFZO1FBQ1pDLFdBQVc7UUFDWEMsVUFBVTtRQUNWQyxNQUFNO1FBQ05DLE9BQU87UUFDUEMsYUFBYSxFQUFFO0lBQ2pCO0NBQ0QsQ0FBQztBQUVLLE1BQU1DLGFBQStCO0lBQzFDO1FBQ0VDLE1BQU07UUFDTkMsU0FBUztRQUNUQyxhQUFhO1FBQ2JDLE1BQU07UUFDTlAsTUFBTTtJQUNSO0lBQ0E7UUFDRUksTUFBTTtRQUNOQyxTQUFTO1FBQ1RDLGFBQWE7UUFDYkMsTUFBTTtRQUNOUCxNQUFNO0lBS1I7Q0FDRCxDQUFDO0FBRUssTUFBTVEsV0FBMEI7SUFDckM7UUFDRWxDLE1BQU07UUFDTjBCLE1BQU07SUFHUjtJQUNBO1FBQ0UxQixNQUFNO1FBQ04wQixNQUFNO0lBRVI7SUFDQTtRQUNFMUIsTUFBTTtRQUNOMEIsTUFBTTtJQUVSO0lBQ0E7UUFDRTFCLE1BQU07UUFDTjBCLE1BQU07SUFFUjtJQUNBO1FBQ0UxQixNQUFNO1FBQ04wQixNQUFNO0lBRVI7SUFDQTtRQUNFMUIsTUFBTTtRQUNOMEIsTUFBTTtJQUVSO0NBQ0QsQ0FBQztBQUVLLE1BQU1TLFlBQTRCO0lBQ3ZDO1FBQ0VuQyxNQUFNO1FBQ044QixNQUFNO1FBQ05NLFVBQ0U7SUFDSjtJQUNBO1FBQ0VwQyxNQUFNO1FBQ044QixNQUFNO1FBQ05NLFVBQ0U7SUFDSjtJQUNBO1FBQ0VwQyxNQUFNO1FBQ044QixNQUFNO1FBQ05NLFVBQ0U7SUFDSjtJQUNBO1FBQ0VwQyxNQUFNO1FBQ044QixNQUFNO1FBQ05NLFVBQ0U7SUFDSjtJQUNBO1FBQ0VwQyxNQUFNO1FBQ044QixNQUFNO1FBQ05NLFVBQ0U7SUFDSjtJQUNBO1FBQ0VwQyxNQUFNO1FBQ044QixNQUFNO1FBQ05NLFVBQ0U7SUFDSjtJQUNBO1FBQ0VwQyxNQUFNO1FBQ044QixNQUFNO1FBQ05NLFVBQ0U7SUFDSjtJQUNBO1FBQ0VwQyxNQUFNO1FBQ044QixNQUFNO1FBQ05NLFVBQ0U7SUFDSjtDQUNELENBQUM7QUFFRixpREFBaUQ7QUFDMUMsTUFBTUMsVUFBdUI7SUFDbENwQyxPQUFPO0lBQ1BDLGFBQWFILFVBQVVHLFdBQVc7SUFDbENvQyxRQUFRO0lBQ1JDLE9BQU87SUFDUEMsS0FBSztJQUNMQyxVQUFVO1FBQ1I7UUFDQTtRQUNBLHFCQUFxQjtRQUNyQixvQkFBb0I7UUFDcEI7UUFDQTtRQUNBO0tBQ0Q7QUFDSCxFQUFFIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vZGV2ZWxvcGVyLXBvcnRmb2xpby8uL3BvcnRmb2xpby50cz8xZDM0Il0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBlbW9qaSBmcm9tIFwicmVhY3QtZWFzeS1lbW9qaVwiO1xyXG5pbXBvcnQge1xyXG4gIEVkdWNhdGlvblR5cGUsXHJcbiAgRXhwZXJpZW5jZVR5cGUsXHJcbiAgRmVlZGJhY2tUeXBlLFxyXG4gIFByb2plY3RUeXBlLFxyXG4gIFNraWxsc1NlY3Rpb25UeXBlLFxyXG4gIFNraWxsQmFyc1R5cGUsXHJcbiAgU0VPRGF0YVR5cGUsXHJcbiAgU29jaWFsTGlua3NUeXBlLFxyXG4gIEdyZWV0aW5nc1R5cGUsXHJcbn0gZnJvbSBcIi4vdHlwZXMvc2VjdGlvbnNcIjtcclxuXHJcbmV4cG9ydCBjb25zdCBncmVldGluZ3M6IEdyZWV0aW5nc1R5cGUgPSB7XHJcbiAgbmFtZTogXCJCaGF2aWthIFBhdGVsXCIsXHJcbiAgdGl0bGU6IFwiSGkgYWxsLCBJJ20gQmhhdmlrYVwiLFxyXG4gIGRlc2NyaXB0aW9uOlxyXG4gICAgXCJJJ20gYSBwYXNzaW9uYXRlIEZ1bGwgU3RhY2sgd2ViIGRldmVsb3BlciB3aXRoIGV4cGVyaWVuY2UgZGV2ZWxvcGluZyBGdWxsIFN0YWNrIHdlYiBhcHBsaWNhdGlvbnMgd2l0aCBQSFAsIFN5bWZvbnksIExhcmF2ZWwsIFlpaSwgSmF2YXNjcmlwdCwgUmVhY3QuanMgYW5kIFR5cGVzY3JpcHQuIEkgYW0gc3Ryb25nbHkgaW50ZXJlc3RlZCBpbiBsZWFybmluZyBuZXcgdGVjaG5vbG9naWVzIGFuZCBpbXBsZW1lbnRpbmcgdGhlbSBpbiBteSBwcm9qZWN0cy4gSSdtIGEgc2VsZi1tb3RpdmF0ZWQgYW5kIGhhcmR3b3JraW5nIGluZGl2aWR1YWwgd2hvIGlzIGFsd2F5cyByZWFkeSB0byBsZWFybiBuZXcgdGhpbmdzIGFuZCB3b3JrIGluIGEgdGVhbS5cIixcclxuICByZXN1bWVMaW5rOiBcIiNcIixcclxufTtcclxuXHJcbmV4cG9ydCBjb25zdCBvcGVuU291cmNlID0ge1xyXG4gIGdpdGh1YlVzZXJOYW1lOiBcInBhdGVsYmhhdmlrYTQ2XCIsXHJcbn07XHJcblxyXG5leHBvcnQgY29uc3QgY29udGFjdCA9IHt9O1xyXG5cclxuZXhwb3J0IGNvbnN0IHNvY2lhbExpbmtzOiBTb2NpYWxMaW5rc1R5cGUgPSB7XHJcbiAgZW1haWw6IFwibWFpbHRvOmJoYXZpa2EucGF0ZWwzMDA1QGdtYWlsLmNvbVwiLFxyXG4gIGxpbmtlZGluOiBcImh0dHBzOi8vd3d3LmxpbmtlZGluLmNvbS9pbi9iaGF2aWthMzBcIixcclxuICBnaXRodWI6IFwiaHR0cHM6Ly9naXRodWIuY29tL3BhdGVsYmhhdmlrYTQ2XCIsXHJcbiAgLy8gaW5zdGFncmFtOiBcImh0dHBzOi8vd3d3Lmluc3RhZ3JhbS5jb20vX19oYW56bGExMDBcIixcclxuICAvLyBmYWNlYm9vazogJ2h0dHBzOi8vd3d3LmZhY2Vib29rLmNvbS8xaGFuemxhMTAwJyxcclxuICAvLyB0d2l0dGVyOiAnaHR0cHM6Ly90d2l0dGVyLmNvbS8xaGFuemxhMTAwJyxcclxufTtcclxuXHJcbmV4cG9ydCBjb25zdCBza2lsbHNTZWN0aW9uOiBTa2lsbHNTZWN0aW9uVHlwZSA9IHtcclxuICB0aXRsZTogXCJXaGF0IEkgZG9cIixcclxuICBzdWJUaXRsZTogXCJDUkFaWSBGVUxMIFNUQUNLIERFVkVMT1BFUiBXSE8gV0FOVFMgVE8gRVhQTE9SRSBFVkVSWSBURUNIIFNUQUNLXCIsXHJcbiAgZGF0YTogW1xyXG4gICAge1xyXG4gICAgICB0aXRsZTogXCJGdWxsIFN0YWNrIERldmVsb3BtZW50XCIsXHJcbiAgICAgIGxvdHRpZUFuaW1hdGlvbkZpbGU6IFwiL2xvdHRpZS9za2lsbHMvZnVsbHN0YWNrLmpzb25cIiwgLy8gUGF0aCBvZiBMb3R0aWUgQW5pbWF0aW9uIEpTT04gRmlsZVxyXG4gICAgICBza2lsbHM6IFtcclxuICAgICAgICBlbW9qaShcIuKaoSBCdWlsZGluZyByZXNwb25zaXZlIFNpbmdsZS1QYWdlLUFwcHMgKFNQQSkgJiBQV0EgaW4gUmVhY3QuanMgYW5kIFZ1ZS5qc1wiKSxcclxuICAgICAgICBlbW9qaShcIuKaoSBCdWlsZGluZyBzY2FsYWJsZSBhcHBsaWNhdGlvbiB1c2luZyBTeW1mb255IGFuZCBMYXJhdmVsXCIpLFxyXG4gICAgICAgIGVtb2ppKFwi4pqhIEJ1aWxkaW5nIFJFU1RmdWwgQVBJcyBpbiBTeW1mb255ICYgTGFyYXZlbCBSRVNUIEZyYW1ld29ya1wiKSxcclxuICAgICAgXSxcclxuICAgICAgc29mdHdhcmVTa2lsbHM6IFtcclxuICAgICAgICB7XHJcbiAgICAgICAgICBza2lsbE5hbWU6IFwiUEhQXCIsXHJcbiAgICAgICAgICBpY29uaWZ5VGFnOiBcImxvZ29zOnBocFwiLFxyXG4gICAgICAgIH0sXHJcbiAgICAgICAgLy8ge1xyXG4gICAgICAgIC8vICAgc2tpbGxOYW1lOiBcIlR5cGVzY3JpcHRcIixcclxuICAgICAgICAvLyAgIGljb25pZnlUYWc6IFwidnNjb2RlLWljb25zOmZpbGUtdHlwZS1kamFuZ29cIixcclxuICAgICAgICAvLyB9LFxyXG4gICAgICAgIHtcclxuICAgICAgICAgIHNraWxsTmFtZTogXCJKYXZhU2NyaXB0XCIsXHJcbiAgICAgICAgICBpY29uaWZ5VGFnOiBcImxvZ29zOmphdmFzY3JpcHRcIixcclxuICAgICAgICB9LFxyXG4gICAgICAgIHtcclxuICAgICAgICAgIHNraWxsTmFtZTogXCJSZWFjdGpzXCIsXHJcbiAgICAgICAgICBpY29uaWZ5VGFnOiBcInZzY29kZS1pY29uczpmaWxlLXR5cGUtcmVhY3Rqc1wiLFxyXG4gICAgICAgIH0sXHJcbiAgICAgICAgLy8ge1xyXG4gICAgICAgIC8vICAgc2tpbGxOYW1lOiBcIlZ1ZWpzXCIsXHJcbiAgICAgICAgLy8gICBpY29uaWZ5VGFnOiBcInZzY29kZS1pY29uczpmaWxlLXR5cGUtbGlnaHQtdnVlXCIsXHJcbiAgICAgICAgLy8gfSxcclxuICAgICAgICB7XHJcbiAgICAgICAgICBza2lsbE5hbWU6IFwiQVdTXCIsXHJcbiAgICAgICAgICBpY29uaWZ5VGFnOiBcImxvZ29zOmF3c1wiLFxyXG4gICAgICAgIH0sXHJcbiAgICAgICAge1xyXG4gICAgICAgICAgc2tpbGxOYW1lOiBcIk15c3FsXCIsXHJcbiAgICAgICAgICBpY29uaWZ5VGFnOiBcImxvZ29zOm15c3FsLWljb25cIixcclxuICAgICAgICB9LFxyXG4gICAgICAgIHtcclxuICAgICAgICAgIHNraWxsTmFtZTogXCJHaXRodWJcIixcclxuICAgICAgICAgIGljb25pZnlUYWc6IFwiYWthci1pY29uczpnaXRodWItZmlsbFwiLFxyXG4gICAgICAgIH0sXHJcbiAgICAgICAge1xyXG4gICAgICAgICAgc2tpbGxOYW1lOiBcIkRvY2tlclwiLFxyXG4gICAgICAgICAgaWNvbmlmeVRhZzogXCJsb2dvczpkb2NrZXItaWNvblwiLFxyXG4gICAgICAgIH0sXHJcbiAgICAgIF0sXHJcbiAgICB9LFxyXG4gIF0sXHJcbn07XHJcblxyXG5leHBvcnQgY29uc3QgU2tpbGxCYXJzOiBTa2lsbEJhcnNUeXBlW10gPSBbXHJcbiAge1xyXG4gICAgU3RhY2s6IFwiRnJvbnRlbmQgLyBEZXNpZ25cIiwgLy9JbnNlcnQgc3RhY2sgb3IgdGVjaG5vbG9neSB5b3UgaGF2ZSBleHBlcmllbmNlIGluXHJcbiAgICBwcm9ncmVzc1BlcmNlbnRhZ2U6IFwiODVcIiwgLy9JbnNlcnQgcmVsYXRpdmUgcHJvZmljaWVuY3kgaW4gcGVyY2VudGFnZVxyXG4gIH0sXHJcbiAge1xyXG4gICAgU3RhY2s6IFwiQmFja2VuZFwiLFxyXG4gICAgcHJvZ3Jlc3NQZXJjZW50YWdlOiBcIjkwXCIsXHJcbiAgfSxcclxuICB7XHJcbiAgICBTdGFjazogXCJQcm9ncmFtbWluZ1wiLFxyXG4gICAgcHJvZ3Jlc3NQZXJjZW50YWdlOiBcIjk1XCIsXHJcbiAgfSxcclxuXTtcclxuXHJcbmV4cG9ydCBjb25zdCBlZHVjYXRpb25JbmZvOiBFZHVjYXRpb25UeXBlW10gPSBbXHJcbiAge1xyXG4gICAgc2Nob29sTmFtZTogXCJHdWphcmF0IFRlY2hub2xvZ2ljYWwgdW5pdmVyc2l0eVwiLFxyXG4gICAgc3ViSGVhZGVyOiBcIkJhY2hlbG9yIG9mIENvbXB1dGVyIEVuZ2luZWVyaW5nXCIsXHJcbiAgICBkdXJhdGlvbjogXCJKdWx5IDIwMDkgLSBNYXkgMjAxM1wiLFxyXG4gICAgZGVzYzogXCJcIixcclxuICAgIGdyYWRlOiBcIlwiLFxyXG4gICAgZGVzY0J1bGxldHM6IFtdLCAvLyBBcnJheSBvZiBTdHJpbmdzXHJcbiAgfSxcclxuXTtcclxuXHJcbmV4cG9ydCBjb25zdCBleHBlcmllbmNlOiBFeHBlcmllbmNlVHlwZVtdID0gW1xyXG4gIHtcclxuICAgIHJvbGU6IFwiU2VuaW9yIFNvZnR3YXJlIERldmVsb3BlclwiLFxyXG4gICAgY29tcGFueTogXCJFY29zbW9iIFRlY2hub2xvZ2llcyBQdnQgTHRkLlwiLFxyXG4gICAgY29tcGFueUxvZ286IFwiL2ltZy9pY29ucy9jb21tb24vZWNvc21vYl9sb2dvLmpwZ1wiLFxyXG4gICAgZGF0ZTogXCJKdWx5IDIwMTMgLSBTZXB0IDIwMThcIixcclxuICAgIGRlc2M6IFwiSSBjcmFmdGVkIGJhY2tlbmRzIGZvciBkaXZlcnNlIHdlYiBhcHBzLCBBUElzLCBhbmQgV2ViU29ja2V0cyBpbiBlLWNvbW1lcmNlLCBwb2RjYXN0cywgYW5kIHByb3BlcnR5IG1hbmFnZW1lbnQuIE1hbmFnZWQgc2VydmVyIHVwa2VlcCwgZGVwbG95bWVudHMgb24gTGludXgsIEhlcm9rdSwgYW5kIEFXUyBTMy4gSW1wbGVtZW50ZWQgUHlUZXN0IGZvciBhdXRvbWF0ZWQgdW5pdCBhbmQgaW50ZWdyYXRpb24gdGVzdGluZywgc2xhc2hpbmcgNCBob3VycyBvZiBtYW51YWwgdGVzdGluZyBlYWNoIHNwcmludCwgZm9ydGlmeWluZyBhIGRlcGVuZGFibGUgYW5kIGZsYXdsZXNzIGNvZGUgZm91bmRhdGlvbi5cIixcclxuICB9LFxyXG4gIHtcclxuICAgIHJvbGU6IFwiRnVsbCBTdGFjayBEZXZlbG9wZXJcIixcclxuICAgIGNvbXBhbnk6IFwiSGFsaWdodCBJbmMuXCIsXHJcbiAgICBjb21wYW55TG9nbzogXCIvaW1nL2ljb25zL2NvbW1vbi9oYWxpZ2h0X2xvZ28uanBnXCIsXHJcbiAgICBkYXRlOiBcIk5vdiAyMDE4IC0gQXByaWwgMjAyNFwiLFxyXG4gICAgZGVzYzogXCJDcmFmdGVkIHJvYnVzdCBtb2JpbGUgYXBwbGljYXRpb24gYmFja2VuZHMgZW1wbG95aW5nIERqYW5nbywgUHl0aG9uLCBhbmQgUkVTVCBBUElzLiBMZXZlcmFnZWQgRGphbmdvIFJFU1QgRnJhbWV3b3JrLCBQb3N0Z3JlU1FMLCBBV1MsIEZpcmViYXNlLCBTdHJpcGUsIGFuZCBXZWJTb2NrZXQgZm9yIGVmZmljaWVudCBkZXZlbG9wbWVudC4gQ29sbGFib3JhdGVkIGFjcm9zcyB0ZWFtcyB0byBzdXJwYXNzIGNsaWVudCBleHBlY3RhdGlvbnMuIERlc2lnbmVkIGludHVpdGl2ZSBVSXMsIGVtcG93ZXJpbmcgY2xpZW50cyB0byBlZmZvcnRsZXNzbHkgbWFuYWdlIHRoZWlyIGFwcGxpY2F0aW9ucyB3aXRoIGEgdmlzdWFsbHkgY2FwdGl2YXRpbmcgaW50ZXJmYWNlLlwiLFxyXG4gICAgLy8gZGVzY0J1bGxldHM6IFtcclxuICAgIC8vIFx0XCJMb3JlbSBpcHN1bSBkb2xvciBzaXQgYW1ldCwgY29uc2RmZ2VjdGV0dXIgYWRpcGlzY2luZyBlbGl0XCIsXHJcbiAgICAvLyBcdFwiTG9yZW0gaXBzdW0gZG9sb3Igc2l0IGFtZXQsIGNvbnNlY3RldHVyIGFkaXBpc2NpbmcgZWxpdFwiLFxyXG4gICAgLy8gXSxcclxuICB9XHJcbl07XHJcblxyXG5leHBvcnQgY29uc3QgcHJvamVjdHM6IFByb2plY3RUeXBlW10gPSBbXHJcbiAge1xyXG4gICAgbmFtZTogXCJDYWxsIENlbnRlclwiLFxyXG4gICAgZGVzYzogXCJTb2Z0d2FyZSBEZXZlbG9wZXIgUG9ydGZvbGlvIFRlbXBsYXRlIGJ1aWx0IHdpdGggcmVhY3QuanMgYW5kIG5leHQuanMgYm9vdHN0cmFwIHRoYXQgaGVscHMgeW91IHNob3djYXNlIHlvdXIgd29yayBhbmQgc2tpbGxzIGFzIGEgc29mdHdhcmUgZGV2ZWxvcGVyLlwiLFxyXG4gICAgLy8gZ2l0aHViOiBcImh0dHBzOi8vZ2l0aHViLmNvbS8xaGFuemxhMTAwL2RldmVsb3Blci1wb3J0Zm9saW9cIixcclxuICAgIC8vIGxpbms6IFwiaHR0cHM6Ly9kZXZlbG9wZXItcG9ydGZvbGlvLTFoYW56bGExMDAudmVyY2VsLmFwcC9cIixcclxuICB9LFxyXG4gIHtcclxuICAgIG5hbWU6IFwiQ29zbW8gUEJYXCIsXHJcbiAgICBkZXNjOiBcIkEgUG9kY2FzdCBQbGF0Zm9ybSB3aGVyZSBjcmVhdG9ycyBjYW4gZWFzaWx5IHB1Ymxpc2ggYW5kIHNlbGwgdGhlaXIgcG9kY2FzdHMsIGFuZCB1c2VycyBjYW4gcHVyY2hhc2Ugd2l0aCBIYW5kY2FzaCBCaXRjb2luU1YsIHRoZSBmdXR1cmUgb2YgZmFzdCBhbmQgc2VjdXJlIHRyYW5zYWN0aW9ucy5cIixcclxuICAgIC8vIGxpbms6IFwiaHR0cHM6Ly9naWJlby5pby9cIixcclxuICB9LFxyXG4gIHtcclxuICAgIG5hbWU6IFwiTXVsdGlTZW5kXCIsXHJcbiAgICBkZXNjOiBcIk8gTWVqb3IgT2ZlcnRhIGlzIGEgbW9iaWxlIG1hcmtldHBsYWNlIGZvciBidXlpbmcgYW5kIHNlbGxpbmcgaXRlbXMgbmVhcmJ5LCBoZWxwaW5nIHVzZXJzIGZpbmQgZGVhbHMgb24gdGhpbmdzIHRoZXkgd2FudCBhbmQgbWFrZSBtb25leSBmcm9tIGl0ZW1zIHRoZXkgbm8gbG9uZ2VyIG5lZWQuXCIsXHJcbiAgICAvLyBsaW5rOiBcImh0dHBzOi8vcGxheS5nb29nbGUuY29tL3N0b3JlL2FwcHMvZGV0YWlscz9pZD1jb20uZHVzZWNhLm1lam9yX29mZXJ0YVwiLFxyXG4gIH0sXHJcbiAge1xyXG4gICAgbmFtZTogXCJSZXRhaWxTd2l0Y2hcIixcclxuICAgIGRlc2M6IFwiQSBFY29tbWVyY2UgUGxhdGZvcm0sIHdoZXJlIHNob3BwaW5nIG1lZXRzIHRoZSBmdXR1cmUhIFdpdGggSGFuZENhc2ggQml0Y29pblNWIGludGVncmF0aW9uLCB5b3UgY2FuIGF1dGhlbnRpY2F0ZSBhbmQgcHVyY2hhc2UgcHJvZHVjdHMgd2l0aCBlYXNlIGFuZCBjb25maWRlbmNlLlwiLFxyXG4gICAgLy8gbGluazogXCJodHRwczovL2hvb2xpZ2FuY3VsdHVyZS5jb20vXCIsXHJcbiAgfSxcclxuICB7XHJcbiAgICBuYW1lOiBcIkV2ZW50IE1hbmFnZW1lbnQgU3lzdGVtXCIsXHJcbiAgICBkZXNjOiBcIkEgRWNvbW1lcmNlIFBsYXRmb3JtLCB3aGVyZSBzaG9wcGluZyBtZWV0cyB0aGUgZnV0dXJlISBXaXRoIEhhbmRDYXNoIEJpdGNvaW5TViBpbnRlZ3JhdGlvbiwgeW91IGNhbiBhdXRoZW50aWNhdGUgYW5kIHB1cmNoYXNlIHByb2R1Y3RzIHdpdGggZWFzZSBhbmQgY29uZmlkZW5jZS5cIixcclxuICAgIC8vIGxpbms6IFwiaHR0cHM6Ly9ob29saWdhbmN1bHR1cmUuY29tL1wiLFxyXG4gIH0sXHJcbiAge1xyXG4gICAgbmFtZTogXCJMZWFybmluZyBNYW5hZ2VtZW50IFN5c3RlbVwiLFxyXG4gICAgZGVzYzogXCJBIEVjb21tZXJjZSBQbGF0Zm9ybSwgd2hlcmUgc2hvcHBpbmcgbWVldHMgdGhlIGZ1dHVyZSEgV2l0aCBIYW5kQ2FzaCBCaXRjb2luU1YgaW50ZWdyYXRpb24sIHlvdSBjYW4gYXV0aGVudGljYXRlIGFuZCBwdXJjaGFzZSBwcm9kdWN0cyB3aXRoIGVhc2UgYW5kIGNvbmZpZGVuY2UuXCIsXHJcbiAgICAvLyBsaW5rOiBcImh0dHBzOi8vaG9vbGlnYW5jdWx0dXJlLmNvbS9cIixcclxuICB9LFxyXG5dO1xyXG5cclxuZXhwb3J0IGNvbnN0IGZlZWRiYWNrczogRmVlZGJhY2tUeXBlW10gPSBbXHJcbiAge1xyXG4gICAgbmFtZTogXCJBa3NoYXkgU2hhaFwiLFxyXG4gICAgcm9sZTogXCJTci4gU29mdHdhcmUgRGV2ZWxvcGVyIGF0IEVjb3Ntb2IgVGVjaG5vbG9naWVzIFB2dCBMdGQuXCIsXHJcbiAgICBmZWVkYmFjazpcclxuICAgICAgXCJCaGF2aWthIHN0YW5kcyBvdXQgYXMgYW4gZXhjZXB0aW9uYWwgbGVhZGVyIGluIHRoZSB0ZWNobmljYWwgcmVhbG0uIEhlciBhYmlsaXR5IHRvIGxlYWQgYW5kIHRyYWluIHRlYW1zIGlzIHJlbWFya2FibGUsIHNob3djYXNpbmcgbm90IGp1c3QgaGVyIGtub3dsZWRnZSBidXQgYWxzbyBoZXIgY29tbWl0bWVudCB0byBjb2xsZWN0aXZlIGdyb3d0aC4gQmhhdmlrYSBwb3NzZXNzZXMgYSByYXJlIHRhbGVudCBmb3IgcmVzb2x2aW5nIGNvbXBsZXggaXNzdWVzIHdpdGggZWFzZSBhbmQgZWZmaWNpZW5jeS4gSGVyIHNraWxscyBleHRlbmQgYmV5b25kIHRlY2huaWNhbCBleHBlcnRpc2UsIGFzIHNoZSBtYXN0ZXJmdWxseSBtYW5hZ2VzIHRoZSBkZWxpY2F0ZSBiYWxhbmNlIGJldHdlZW4gY2xpZW50IG5lZWRzLCBjb21wYW55IGdvYWxzLCBhbmQgdGVhbSBkeW5hbWljcy4gU2hlIGlzIG9uZSBvZiB0aGUgZmV3IHdobyBza2lsbGZ1bGx5IG5hdmlnYXRlcyBjaGFsbGVuZ2VzIHdpdGggYSBzb2x1dGlvbi1vcmllbnRlZCBhcHByb2FjaC4gQmhhdmlrYSBpcyB0cnVseSBhIHZhbHVhYmxlIGFzc2V0IGluIGFueSB0ZWNobmljYWwgZW52aXJvbm1lbnQuXCIsXHJcbiAgfSxcclxuICB7XHJcbiAgICBuYW1lOiBcIkRocnV0ZW4gRGhhbmFuaVwiLFxyXG4gICAgcm9sZTogXCJTci4gU29mdHdhcmUgRGV2ZWxvcGVyIGF0IEVjb3Ntb2IgVGVjaG5vbG9naWVzIFB2dCBMdGQuXCIsXHJcbiAgICBmZWVkYmFjazpcclxuICAgICAgXCJCaGF2aWthIGlzIGV4dHJhb3JkaW5hcnkgbWl4dHVyZSBvZiB0YWxlbnQgYW5kIHJlc3BvbnNpYmlsaXR5IHdpdGggaGF2aW5nIGhpZ2hseSBlZmZlY3RpdmUgYW5kIGVmZmljaWVudCB3b3JrIGV0aGljcy4gSSBoYWQgc2VlbiBoZXIgc21vb3RoIHRyYW5zaXRpb24gZnJvbSBUcmFpbmVlIEVuZ2luZWVyIHRvIFNyLiBEZXZlbG9wZXIgaW4gb3VyIG9yZ2FuaXphdGlvbiB3aGlsZSB3b3JraW5nIHdpdGggaGVyIHNpbmNlIGxhc3QgNSB5ZWFycy4gSXQgd2FzIGFsd2F5cyBwbGVhc3VyZSB0byB3b3JrIHdpdGggaGVyIHdoZXRoZXIgaXQgYmUgaW4gc2FtZSBvciBwcm9qZWN0IG9yIGluIGRpZmZlcmVudCBvbmVzLCBzaGUgaXMgYWx3YXlzIHJlYWR5IGhlbHAgYW5kIHNvbHZlZCBudW1lcm91cyBjcnVjaWFsIGlzc3VlcyBvbiB0aGUgZmxvb3IuIEFwYXJ0IGZyb20gZGV2ZWxvcG1lbnQgc2hlIGlzIGZsYXdsZXNzIGluIG1hbmFnaW5nIGJpZyBwcm9qZWN0cyBhbmQgc3ViLW9yZGluYXRlcyBzaW11bHRhbmVvdXNseS4gTW9yZW92ZXIgbWFueSBvZiB0aGUgY2xpZW50cyBoYWQgYWRtaXJlZCBoZXIgZm9yIHRvIHRoZSBtYXJrIHF1YWxpdHkgYW5kIGluLXRpbWUgZGVsaXZlcmFuY2UuIE1vc3QgcHJvbWluZW50IGFzcGVjdCBvZiBoZXIgaXMgdG8gZGVhbCB3aXRoIHN0cmVzc2VkIHNpdHVhdGlvbnMgaW4gYWxtb3N0IHVubW92ZWQgYmVoYXZpb3VyLCBzaGUgYWN0IHZlcnkgcmVzcG9uc2libHkgYWxsIHRoZSB0aW1lLiBFdmVyeW9uZSB3YW50ZWQgdG8gd29yayB3aXRoIGhlciBpbiB0aGUgY29tcGFueSBwcmVtaXNlcyBhcyBzaGUgYmVsaWV2ZXMgaW4gY29udGludW91cyBsZWFybmluZyBhbmQgaW1wcm92ZW1lbnQuIFdob2V2ZXIgaGFkIHdvcmtlZCB3aXRoIGhlciBpcyBoYXZpbmcgYmV0dGVyIGNhcmVlciBncm93dGggdGhyb3VnaG91dCBoZXIgcHJlc2VuY2UuIEFueSBlbXBsb3llciBjYW4gYmUgZnVsbHkgZGVwZW5kZW50IG9uIGhlciBhYm91dCBnaXZlbiB3b3JrIGFuZCBmb3JnZXQgdGhlIHJlc3QsIHNoZSB3aWxsIGRlbGl2ZXIgZm9yIHN1cmUuIFNoZSBpcyBraW5kIG9mIHJhcmUgcGVyc29uYWxpdHkgdGhhdCdzIHdoeSBhbnkgY29tcGFueSB3b3VsZCB3YW50IGhlciBpbiB0aGVpciB3b3JrIGZvcmNlLlwiLFxyXG4gIH0sXHJcbiAge1xyXG4gICAgbmFtZTogXCJGb3JhbSBQYXJpa2hcIixcclxuICAgIHJvbGU6IFwiVGVhbSBMZWFkIGF0IEVjb3Ntb2IgVGVjaG5vbG9naWVzIFB2dCBMdGQuXCIsXHJcbiAgICBmZWVkYmFjazpcclxuICAgICAgXCJTaGUgc291bmRzIHZlcnkgZ29vZCB0ZWNobmljYWxseS4gU2hlIGlzIGFsd2F5cyByZWFkeSB0byBhZGFwdCBuZXcgdGVjaG5vbG9neSBhbmQgdmVyeSBkZXRlcm1pbmVkIHRvIHdvcmsuIFNoZSBpcyBhbHdheXMgcmVhZHkgdG8gc3VwcG9ydCBvdGhlciBpbiBhIHRlYW0uc2hlIHdvcmtzIHdpdGggZGVkaWNhdG9uIGFuZCBxdWFsaXR5LnZlcnkgZ29vZCB0ZWFtIG1lbWJlciBhbmQgcHJvYmxlbSBzb2x2ZXIuR29lcyBleHRyYSBtaWxlIHdoZW5ldmVyIG5lZWRlZCBpbiBhbnkgcHJvamVjdC5zaGUgaGF2ZSBnb29kIGxlYWRlcnNoaXAgcXVhbGl0aWVzLkkgaGlnaGx5IHJlY29tbWVuZCBoZXIgYW5kIGJlc3Qgd2lzaGVzIGZvciB0aGUgZnV0dXJlIVwiLFxyXG4gIH0sXHJcbiAge1xyXG4gICAgbmFtZTogXCJKYW5raXQgU2hhaFwiLFxyXG4gICAgcm9sZTogXCJTciBQcm9qZWN0IE1hbmFnZXIgYXQgRWNvc21vYiBUZWNobm9sb2dpZXMgUHZ0IEx0ZC5cIixcclxuICAgIGZlZWRiYWNrOlxyXG4gICAgICBcIkJoYXZpa2EgaXMgaGF2aW5nIGdvZCBnaWZ0IHRvIGxlYXJuIG5ldyB0ZWNobm9sb2dpZXMgZmFzdGVyIGFuZCBnb29kIGFuYWx5c2lzLCByZXNlYXJjaCBza2lsbHMuIFRoZXNlIGhlbHBzIGhlciB0byBtZWV0IGFsbCBwcm9qZWN0J3MgcmVxdWlyZW1lbnQgYW5kIGFjaGlldmUgcmVzdWx0cy4gU2hlIGlzIHZlcnkgY2FsbSwgc29sdXRpb24gb3JpZW50ZWQgYW5kIHNlbGYgbW90aXZhdGVkLiBRdWFsaXR5IGlzIGFsd2F5cyBvbmUgb2YgdGhlIGJlc3QuIFNoZSBoYXMgd29ya2VkIHdpdGggbWUgZm9yIGFsbW9zdCBhIHllYXIgYW5kIEkgYW0gYWx3YXlzIGhhcHB5IHdpdGggaGVyIHByb2plY3QncyBvdXRjb21lLiBCZXN0IG9mIGx1Y2sgYW5kIGtlZXAgdXAgZ29vZCB3b3JrIGFsd2F5cyAhIVwiLFxyXG4gIH0sXHJcbiAge1xyXG4gICAgbmFtZTogXCJKYXkgUmF2YWxcIixcclxuICAgIHJvbGU6IFwiU3IgU29mdHdhcmUgRGV2ZWxvcGVyIGF0IEVjb3Ntb2IgVGVjaG5vbG9naWVzIFB2dCBMdGQuXCIsXHJcbiAgICBmZWVkYmFjazpcclxuICAgICAgXCJXb3JraW5nIHdpdGggQmhhdmlrYSwgSSBmb3VuZCBoZXIgYSB2ZXJ5IGdvb2Qgc2tpbGxlZCBJVCBwcm9mZXNzaW9uYWwuIFNoZSBoYXMgdmVyeSBzb3VuZCBrbm93bGVkZ2Ugb2YgY3VycmVudCB3ZWIgZGV2ZWxvcG1lbnQgdGVjaG5vbG9naWVzIGFuZCBsYW5ndWFnZS4gU2hlIGlzIGEgdmVyeSBnb29kIGFuZCBxdWljayBsZWFybmVyLiBIYXMgYW4gYXR0aXR1ZGUgb2YgbmV2ZXIgZ2l2ZSB1cC4gU2hlIGlzIGEgdmVyeSBnb29kIHRlYW0gbWVtYmVyIGFuZCBhIGtpbmQgbGVhZGVyLiBIZXIgYW5hbHl0aWNhbCBza2lsbCBnaXZlcyBhZHZhbnRhZ2Ugb3ZlciBkaWZmZXJlbnQgY2xpZW50IGNvbW11bmljYXRpb24gYW5kIHJlcXVpcmVtZW50IGFuYWx5c2lzLlNoZSB3b3JrZWQgb24gc2V2ZXJhbCBWb0lQIFByb2plY3RzIGFzIHdlbGwuIFNoZSBpcyBnb29kIGF0IGFsbCBsYXRlc3Qgd2ViIGRldmVsb3BtZW50IHRlY2hub2xvZ2llcyBhbmQgdmFyaW91cyBmcmFtZXdvcmtzLiBBIGdvb2QgaHVtYW4gYmVpbmcgYW5kIGEgc2tpbGxlZCBwcm9mZXNzaW9uYWwuXCIsXHJcbiAgfSxcclxuICB7XHJcbiAgICBuYW1lOiBcIkFsYXAgU2hhaFwiLFxyXG4gICAgcm9sZTogXCJUZWFtIExlYWQgYXQgRWNvc21vYiBUZWNobm9sb2dpZXMgUHZ0IEx0ZC5cIixcclxuICAgIGZlZWRiYWNrOlxyXG4gICAgICBcIlNoZSBpcyBhIHNtYXJ0IHByb2Zlc3Npb25hbCwgdmVyeSBmb2N1cywgdGFyZ2V0IG9yaWVudGVkIHBlcnNvbiBhbmQgcXVpY2sgbGVhcm5lciBpbiBhbnkgdGVjaG5vbG9neSBkb21haW4uIFNoZSdzIGEgdHJ1ZSBhc3NldCBmb3IgYW55IG9yZ2FuaXphdGlvbiBhcyBzaGUgY2FuIGFibGUgdG8gbWFuYWdlIHByb2plY3RzIGJ5IHNpbmdsZSBoYW5kZWQgbGlrZSBhIHdvbmRlciB3b21hbiB3aXRoIGEgV0lOIFdJTiBhdHRpdHVkZS5JIHdpc2ggaGVyIGFsbCB0aGUgZ29vZCBsdWNrcyBpbiBoZXIgY3VycmVudCBhbmQgZnV0dXJlIGVuZGVhdm9ycy5cIixcclxuICB9LFxyXG4gIHtcclxuICAgIG5hbWU6IFwiR2hhbnNoeWFtIEthdHJpeWFcIixcclxuICAgIHJvbGU6IFwiU3IgU29mdHdhcmUgRGV2ZWxvcGVyIGF0IEVjb3Ntb2IgVGVjaG5vbG9naWVzIFB2dCBMdGQuXCIsXHJcbiAgICBmZWVkYmFjazpcclxuICAgICAgXCJJdCB3YXMgYSBwbGVhc3VyZSBvZiB3b3JraW5nIHdpdGggQmhhdmlrYSBmb3IgbW9yZSB0aGFuIDIgeWVhcnMuIER1cmluZyB0aGlzIHRpbWUsIHdlIHdvcmtlZCB0b2dldGhlciBvbiBtdWx0aXBsZSBwcm9qZWN0cyBiYXNlZCBvbiBQSFAgdGVjaG5vbG9neSAoWWlpIEZyYW1ld29yaykuIFNoZSBpcyBhIHBlcnNvbiB3aXRoIGEgc3Ryb25nIG93bmVyc2hpcCBmb3IgcmVzdWx0cyBhbGwgdGhlIHRpbWUuIFNoZSBpcyBjcmVhdGl2ZSwgZW5lcmdldGljLCBzb2x1dGlvbnMgb3JpZW50ZWQgYW5kIGhpZ2hseSBtb3RpdmF0ZWQgd2l0aCBncmVhdCBjb21tdW5pY2F0aW9uIHNraWxscy4gU2hlIGlzIGFuIGFzc2V0IHRvIGFueSBjb21wYW55IHRoYXQgc2hl4oCZcyB3aXRoLlwiLFxyXG4gIH0sXHJcbiAge1xyXG4gICAgbmFtZTogXCJUd2lzaGEgTWFua2FkXCIsXHJcbiAgICByb2xlOiBcIlNyIFNvZnR3YXJlIERldmVsb3BlciBhdCBFY29zbW9iIFRlY2hub2xvZ2llcyBQdnQgTHRkLlwiLFxyXG4gICAgZmVlZGJhY2s6XHJcbiAgICAgIFwiQmhhdmlrYSBpcyBhIGRldGFpbC1vcmllbnRlZCBhbmQgY29tcGV0ZW50IGRldmVsb3Blci4gU2hlIG1lZXRzIGNoYWxsZW5nZXMgaGVhZCBvbiBhbmQgY29tcGxldGVzIGV2ZW4gdGhlIHRvdWdoZXN0IG9mIHRhc2tzIGluIGEgdGltZWx5IG1hbm5lci4gTm90IG9ubHkgYXJlIGhlciBza2lsbHMgdmFsdWFibGUgdG8gYW55IHRlYW0gc2hlIGlzIGFsc28gYSBuaWNlIGFuZCB3YXJtIHBlcnNvbiB0byBoYXZlIGFyb3VuZC4gU2hlIGlzIGhlbHBmdWwgYW5kIGFsd2F5cyBlYWdlciB0byBsZWFybiBtb3JlLiBJIHRydWx5IGJlbGlldmUgQmhhdmlrYSB3b3VsZCBiZSBhIGdyZWF0IGFkZGl0aW9uIHRvIGFueSB0ZWFtLiBcIixcclxuICB9LFxyXG5dO1xyXG5cclxuLy8gU2VlIG9iamVjdCBwcm90b3R5cGUgb24gL3R5cGVzL3NlY3Rpb24udHMgcGFnZVxyXG5leHBvcnQgY29uc3Qgc2VvRGF0YTogU0VPRGF0YVR5cGUgPSB7XHJcbiAgdGl0bGU6IFwiQmhhdmlrYSBQYXRlbFwiLFxyXG4gIGRlc2NyaXB0aW9uOiBncmVldGluZ3MuZGVzY3JpcHRpb24sXHJcbiAgYXV0aG9yOiBcIkJoYXZpa2EgUGF0ZWxcIixcclxuICBpbWFnZTogXCJodHRwczovL2F2YXRhcnMuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3UvNTkxNzgzODA/dj00XCIsXHJcbiAgdXJsOiBcImh0dHBzOi8vcGF0ZWxiaGF2aWthNDYuZ2l0aHViLmlvXCIsXHJcbiAga2V5d29yZHM6IFtcclxuICAgIFwiQmhhdmlrYVwiLFxyXG4gICAgXCJCaGF2aWthIFBhdGVsXCIsXHJcbiAgICAvLyBcIkBwYXRlbGJoYXZpa2E0NlwiLFxyXG4gICAgLy8gXCJwYXRlbGJoYXZpa2E0NlwiLFxyXG4gICAgXCJQb3J0Zm9saW9cIixcclxuICAgIFwiQmhhdmlrYSBQb3J0Zm9saW8gXCIsXHJcbiAgICBcIkJoYXZpa2EgUGF0ZWwgUG9ydGZvbGlvXCIsXHJcbiAgXSxcclxufTtcclxuIl0sIm5hbWVzIjpbImVtb2ppIiwiZ3JlZXRpbmdzIiwibmFtZSIsInRpdGxlIiwiZGVzY3JpcHRpb24iLCJyZXN1bWVMaW5rIiwib3BlblNvdXJjZSIsImdpdGh1YlVzZXJOYW1lIiwiY29udGFjdCIsInNvY2lhbExpbmtzIiwiZW1haWwiLCJsaW5rZWRpbiIsImdpdGh1YiIsInNraWxsc1NlY3Rpb24iLCJzdWJUaXRsZSIsImRhdGEiLCJsb3R0aWVBbmltYXRpb25GaWxlIiwic2tpbGxzIiwic29mdHdhcmVTa2lsbHMiLCJza2lsbE5hbWUiLCJpY29uaWZ5VGFnIiwiU2tpbGxCYXJzIiwiU3RhY2siLCJwcm9ncmVzc1BlcmNlbnRhZ2UiLCJlZHVjYXRpb25JbmZvIiwic2Nob29sTmFtZSIsInN1YkhlYWRlciIsImR1cmF0aW9uIiwiZGVzYyIsImdyYWRlIiwiZGVzY0J1bGxldHMiLCJleHBlcmllbmNlIiwicm9sZSIsImNvbXBhbnkiLCJjb21wYW55TG9nbyIsImRhdGUiLCJwcm9qZWN0cyIsImZlZWRiYWNrcyIsImZlZWRiYWNrIiwic2VvRGF0YSIsImF1dGhvciIsImltYWdlIiwidXJsIiwia2V5d29yZHMiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./portfolio.ts\n");
-
-/***/ }),
-
-/***/ "./node_modules/next/dynamic.js":
-/*!**************************************!*\
-  !*** ./node_modules/next/dynamic.js ***!
-  \**************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("module.exports = __webpack_require__(/*! ./dist/shared/lib/dynamic */ \"./node_modules/next/dist/shared/lib/dynamic.js\")\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9ub2RlX21vZHVsZXMvbmV4dC9keW5hbWljLmpzLmpzIiwibWFwcGluZ3MiOiJBQUFBLHVIQUFxRCIsInNvdXJjZXMiOlsid2VicGFjazovL2RldmVsb3Blci1wb3J0Zm9saW8vLi9ub2RlX21vZHVsZXMvbmV4dC9keW5hbWljLmpzPzczZDQiXSwic291cmNlc0NvbnRlbnQiOlsibW9kdWxlLmV4cG9ydHMgPSByZXF1aXJlKCcuL2Rpc3Qvc2hhcmVkL2xpYi9keW5hbWljJylcbiJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./node_modules/next/dynamic.js\n");
-
-/***/ }),
-
-/***/ "headroom.js":
-/*!******************************!*\
-  !*** external "headroom.js" ***!
-  \******************************/
+/***/ 895:
 /***/ ((module) => {
 
-"use strict";
 module.exports = require("headroom.js");
 
 /***/ }),
 
-/***/ "./loadable":
-/*!***************************************************!*\
-  !*** external "next/dist/shared/lib/loadable.js" ***!
-  \***************************************************/
+/***/ 832:
 /***/ ((module) => {
 
-"use strict";
 module.exports = require("next/dist/shared/lib/loadable.js");
 
 /***/ }),
 
-/***/ "next/head":
-/*!****************************!*\
-  !*** external "next/head" ***!
-  \****************************/
+/***/ 689:
 /***/ ((module) => {
 
-"use strict";
-module.exports = require("next/head");
-
-/***/ }),
-
-/***/ "react":
-/*!************************!*\
-  !*** external "react" ***!
-  \************************/
-/***/ ((module) => {
-
-"use strict";
 module.exports = require("react");
 
 /***/ }),
 
-/***/ "react-easy-emoji":
-/*!***********************************!*\
-  !*** external "react-easy-emoji" ***!
-  \***********************************/
+/***/ 189:
 /***/ ((module) => {
 
-"use strict";
-module.exports = require("react-easy-emoji");
-
-/***/ }),
-
-/***/ "react-lottie":
-/*!*******************************!*\
-  !*** external "react-lottie" ***!
-  \*******************************/
-/***/ ((module) => {
-
-"use strict";
 module.exports = require("react-lottie");
 
 /***/ }),
 
-/***/ "react-reveal/Fade":
-/*!************************************!*\
-  !*** external "react-reveal/Fade" ***!
-  \************************************/
+/***/ 665:
 /***/ ((module) => {
 
-"use strict";
 module.exports = require("react-reveal/Fade");
 
 /***/ }),
 
-/***/ "react/jsx-dev-runtime":
-/*!****************************************!*\
-  !*** external "react/jsx-dev-runtime" ***!
-  \****************************************/
+/***/ 997:
 /***/ ((module) => {
 
-"use strict";
-module.exports = require("react/jsx-dev-runtime");
+module.exports = require("react/jsx-runtime");
 
 /***/ }),
 
-/***/ "reactstrap":
-/*!*****************************!*\
-  !*** external "reactstrap" ***!
-  \*****************************/
+/***/ 981:
 /***/ ((module) => {
 
-"use strict";
 module.exports = require("reactstrap");
 
 /***/ }),
 
-/***/ "@iconify/react":
-/*!*********************************!*\
-  !*** external "@iconify/react" ***!
-  \*********************************/
+/***/ 566:
 /***/ ((module) => {
 
-"use strict";
 module.exports = import("@iconify/react");;
 
 /***/ })
@@ -205,7 +530,7 @@ module.exports = import("@iconify/react");;
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = (__webpack_exec__("./pages/index.tsx"));
+var __webpack_exports__ = __webpack_require__.X(0, [735,152], () => (__webpack_exec__(174)));
 module.exports = __webpack_exports__;
 
 })();
