@@ -1,87 +1,68 @@
 {
   "..\\components\\DisplayLottie.tsx -> react-lottie": {
-    "id": 9464,
+    "id": "..\\components\\DisplayLottie.tsx -> react-lottie",
     "files": [
-      "static/chunks/ea88be26.c636940fa67ae4a2.js",
-      "static/chunks/464.39014a6d4dc14b0b.js"
+      "static/chunks/node_modules_react-lottie_dist_index_js-_37ae1.js"
     ]
   },
   "index.tsx -> ../components/GithubProfileCard": {
-    "id": 8077,
+    "id": "index.tsx -> ../components/GithubProfileCard",
     "files": [
-      "static/chunks/333.e2ea68ac4435df64.js",
-      "static/chunks/77.59a0bf7300db92ae.js"
+      "static/chunks/components_GithubProfileCard_tsx.js"
     ]
   },
   "index.tsx -> ../components/Navigation": {
-    "id": 4880,
+    "id": "index.tsx -> ../components/Navigation",
     "files": [
-      "static/chunks/333.e2ea68ac4435df64.js",
-      "static/chunks/128.764ce04306f9f0d7.js",
-      "static/chunks/880.6171502185e67763.js"
+      "static/chunks/components_Navigation_tsx.js"
     ]
   },
   "index.tsx -> ../containers/Education": {
-    "id": 4318,
+    "id": "index.tsx -> ../containers/Education",
     "files": [
-      "static/chunks/333.e2ea68ac4435df64.js",
-      "static/chunks/810.889799cd263a765b.js",
-      "static/chunks/318.8d5953ef2cc0377e.js"
+      "static/chunks/containers_Education_tsx.js"
     ]
   },
   "index.tsx -> ../containers/Experience": {
-    "id": 2129,
+    "id": "index.tsx -> ../containers/Experience",
     "files": [
-      "static/chunks/333.e2ea68ac4435df64.js",
-      "static/chunks/810.889799cd263a765b.js",
-      "static/chunks/129.cc7f3a0a6d828811.js"
+      "static/chunks/containers_Experience_tsx.js"
     ]
   },
   "index.tsx -> ../containers/Feedbacks": {
-    "id": 2085,
+    "id": "index.tsx -> ../containers/Feedbacks",
     "files": [
-      "static/chunks/333.e2ea68ac4435df64.js",
-      "static/chunks/810.889799cd263a765b.js",
-      "static/chunks/85.1bbad24fef49177c.js"
+      "static/chunks/containers_Feedbacks_tsx.js"
     ]
   },
   "index.tsx -> ../containers/Greetings": {
-    "id": 9471,
+    "id": "index.tsx -> ../containers/Greetings",
     "files": [
-      "static/chunks/333.e2ea68ac4435df64.js",
-      "static/chunks/471.72de4d6f42acc2ad.js"
+      "static/chunks/containers_Greetings_tsx.js"
     ]
   },
   "index.tsx -> ../containers/Proficiency": {
-    "id": 2041,
+    "id": "index.tsx -> ../containers/Proficiency",
     "files": [
-      "static/chunks/333.e2ea68ac4435df64.js",
-      "static/chunks/41.df38bcfc615c059d.js"
+      "static/chunks/containers_Proficiency_tsx.js"
     ]
   },
   "index.tsx -> ../containers/Projects": {
-    "id": 4668,
+    "id": "index.tsx -> ../containers/Projects",
     "files": [
-      "static/chunks/333.e2ea68ac4435df64.js",
-      "static/chunks/810.889799cd263a765b.js",
-      "static/chunks/668.da728492b1a75978.js"
+      "static/chunks/containers_Projects_tsx.js"
     ]
   },
   "index.tsx -> ../containers/Skills": {
-    "id": 7007,
+    "id": "index.tsx -> ../containers/Skills",
     "files": [
-      "static/chunks/333.e2ea68ac4435df64.js",
-      "static/chunks/128.764ce04306f9f0d7.js",
-      "static/chunks/114.b21f1dd2f6774435.js",
-      "static/chunks/7.8141b35292c2cfed.js"
+      "static/chunks/containers_Skills_tsx.js"
     ]
   },
   "index.tsx -> react-lottie": {
-    "id": 9464,
+    "id": "index.tsx -> react-lottie",
     "files": [
-      "static/chunks/ea88be26.c636940fa67ae4a2.js",
-      "static/chunks/464.39014a6d4dc14b0b.js",
-      "static/chunks/697.11c13abdf7715362.js"
+      "static/chunks/node_modules_react-lottie_dist_index_js-_37ae0.js"
     ]
   }
 }
