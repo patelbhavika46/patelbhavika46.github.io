@@ -1,5 +1,8 @@
 import React from "react";
-import Lottie from "react-lottie";
+import dynamic from 'next/dynamic';
+
+// Disable SSR for Lottie component
+const Lottie = dynamic(() => import('react-lottie'), { ssr: false });
 
 type Props = {
   animationPath: string;

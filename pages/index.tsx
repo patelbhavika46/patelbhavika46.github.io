@@ -12,6 +12,9 @@ import { openSource } from "../portfolio";
 import SEO from "../components/SEO";
 import { GithubUserType } from "../types";
 
+// Disable SSR for Lottie component
+const Lottie = dynamic(() => import('react-lottie'), { ssr: false });
+
 export default function Home({ githubProfileData }: { githubProfileData: any }) {
   return (
     <div>
