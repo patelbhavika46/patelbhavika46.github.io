@@ -6,8 +6,8 @@ const isProd = process.env.NODE_ENV === "production";
 const nextConfig = {
   reactStrictMode: true,
   trailingSlash: true,
-  basePath: "/patelbhavika46.github.io",
-  assetPrefix: "/patelbhavika46.github.io",
+  // basePath: "/patelbhavika46.github.io",
+  // assetPrefix: "/patelbhavika46.github.io",
   images: {
     domains: ["avatars.githubusercontent.com"],
   },
