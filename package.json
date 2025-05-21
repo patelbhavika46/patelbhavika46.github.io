@@ -6,16 +6,16 @@
   "repository": "https://github.com/1hanzla100/hanzla-portfolio.git",
   "author": "Hanzla Tauqeer",
   "license": "MIT",
-  "homepage": "https://patelbhavika46.github.io",
+  "homepage": "https://patelbhavika46.github.io/",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build && next export",
-    "start": "next start",
+    "dev": "cross-env NODE_ENV=development next dev",
+    "build": "cross-env NODE_ENV=production next build && next export",
+    "start": "cross-env NODE_ENV=production next start",
     "lint": "eslint *.{js,jsx,ts,tsx}",
     "lint:fix": "eslint *.{js,jsx,ts,tsx} --fix",
     "prettier": "prettier --check .",
     "prettier:fix": "prettier --write .",
-    "deploy": "gh-pages -d out"
+    "deploy": "cross-env NODE_ENV=production gh-pages -d out"
   },
   "dependencies": {
     "@apollo/client": "^3.3.21",
@@ -47,6 +47,7 @@
     "@types/node": "^18.14.1",
     "@types/react": "^18.0.28",
     "@types/react-lottie": "^1.2.6",
+    "cross-env": "^7.0.3",
     "eslint": "7.32.0",
     "eslint-config-next": "11.1.2",
     "eslint-config-prettier": "^8.6.0",
